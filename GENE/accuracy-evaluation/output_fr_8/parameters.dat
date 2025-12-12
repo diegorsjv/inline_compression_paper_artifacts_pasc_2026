@@ -1,0 +1,137 @@
+&parallelization
+n_procs_s =   1
+n_procs_v =   8
+n_procs_w =   1
+n_procs_x =   1
+n_procs_y =   1
+n_procs_z =   4
+n_procs_sim =     32
+/
+
+&box
+n_spec =    1
+nx0    =   128
+nky0   =   28
+nz0    =   32
+nv0    =   32
+nw0    =    8
+
+kymin =   0.30000000E-01
+lv    =   3.00000    
+lw    =   9.00000    
+lx    =   167.504    
+nexc  = 4
+adapt_lx = F
+/
+
+&in_out
+diagdir = '/ptmp/djimenez/may_2025_experiments/compressed_2_partitions_cf_8_scaled_prob_new_lx_new_dt/'
+
+read_checkpoint  = F
+write_checkpoint = T
+
+istep_field  =      10
+istep_mom    =     100
+istep_nrg    =      10
+istep_vsp    =       0
+istep_schpt  =   20000
+istep_energy =      10
+
+write_std = T
+/
+
+&general
+nonlinear =   T
+comp_type = 'IV'
+perf_vec  =  1 1 1 1 1 2 1 2 1
+nblocks   =       1
+hypz_opt =   F
+hypz_compensation =   T
+
+timescheme = 'RK4'
+dt_max     =   0.2560E-01
+courant    =     1.25
+
+timelim    =      86000
+ntimesteps =     160000
+simtimelim =   0.1000E+05
+
+beta       =    0.0000000    
+debye2     =    0.0000000    
+collision_op = 'none'
+
+init_cond = 'ppj'
+
+hyp_z_with_dz_prefactor = F
+hyp_z =    2.000    
+hyp_v_with_dv_prefactor = F
+hyp_v =   0.2000    
+
+perf_tsteps =  -1
+
+/
+
+&geometry
+magn_geometry = 's_alpha'
+q0       =    1.4000000    
+shat     =   0.79600000    
+trpeps   =   0.18000000    
+major_R  =    1.0000000    
+dpdx_term= 'gradB_eq_curv'
+dpdx_pm  =    0.0000000    
+norm_flux_projection  = F
+sign_Ip_CW =       1
+sign_Bt_CW =       1
+/
+
+&species
+name   = 'ions'
+omn    =    2.2200000    
+omt    =    6.9600000    
+
+mass   =    1.0000000    
+temp   =    1.0000000    
+dens   =    1.0000000    
+charge =    1.0000000    
+/
+
+&info
+probdir = '/raven/u/djimenez/MARCH_2025/compressed_partitioned_gene/prob_compressed_slepc_step_2_partitions_cf_8_new_prob_scaled_lx_may_2025'
+step_time  =     0.0315
+number of computed time steps =  160000
+time for initial value solver =   5037.614
+calc_dt = F
+nltdt_off = F
+axpy_ij_use_blas = T
+init_time =     4.2163
+n_fields = 1
+n_moms   =  6
+nrgcols  = 10
+lx =   167.504    
+ly =   209.440    
+Zeff_species =   1.000000
+PRECISION  = DOUBLE
+ENDIANNESS = LITTLE
+NUMBER_OF_NODES = 8       
+OMP_NUM_THREADS =   1
+USE_GPU = cuda
+N_GPU_DEVICES =   4
+HAVE_GPU_AWARE_MPI = T
+FOM_performance =             0.0
+GIT_BRANCH = a452038e742d42b3a32f33fdc69f179ebf353842                    
+GIT_MASTER = 079d6815884eb3c4ddbf5ccc73be76959fb70154                    
+RELEASE = 3.2 - alpha 0
+MACHINE = raven
+FCVERSION = GNU Fortran (GCC) 12.1.0
+FFTLIB = fftw
+DATETIME = 20250522 201656.613
+WITHSLEPC = no
+/
+
+&units
+/
+
+&bsgrid
+is_bsg = F
+/
+

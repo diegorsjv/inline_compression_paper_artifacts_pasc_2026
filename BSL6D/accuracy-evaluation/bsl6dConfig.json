@@ -1,0 +1,121 @@
+{
+	"description": "Simulation of ion Bernstein waves reproducing the analytical dispersion relation",
+	"diagnostics": [
+		{
+			"diagnostic": "f",
+			"iteration": 1000
+		},
+		{
+			"diagnostic": "n",
+			"iteration": 1
+		},
+		{
+			"diagnostic": "phi",
+			"iteration": 1
+		}
+	],
+	"distributionFunction": {
+		"m": 1.0,
+		"q": 1.0
+	},
+	"fieldSolver": {
+		"backgroundField": {
+			"Bx3": 1.0
+		},
+		"quasiNeutral": {
+			"constFluxSurfaceAverage": false
+		}
+	},
+	"gridDistribution": {
+		"grid": {
+			"NxvPoints": [
+				128, 
+				128,
+				64,
+				64
+      ],
+			"axes": [
+				"x1",
+				"x2",
+				"v1",
+				"v2"
+			],
+			"position": [
+				"L",
+				"L",
+				"N",
+				"N"
+			],
+			"rotateGyroFreq": true,
+			"xvMax": [
+				20.943951023931955,
+				20.943951023931955,
+				6.0,
+				6.0
+			],
+			"xvMin": [
+				0.0,
+				0.0,
+				-6.0,
+				-6.0
+			]
+		},
+    "parallel": {
+      "Nprocs": [2,2,1,1]
+    }
+	},
+	"initializationDistributionFunction": {
+	    "alpha": 0.0001,
+        "initFunction": "rand_dens_perturbation",
+        "seed": 0
+    },
+	"integrator": [
+		{
+			"dtRatio": 0.0,
+			"t0Offset": 0.0,
+			"token": "diagnostic"
+		},
+		{
+			"dtRatio": 0.0,
+			"t0Offset": 0.0,
+			"token": "solveMaxwellFields"
+		},
+		{
+			"dtRatio": 0.5,
+			"t0Offset": 0.0,
+			"token": "advectV"
+		},
+		{
+			"dtRatio": 1.0,
+			"t0Offset": 0.0,
+			"token": "advectX"
+		},
+		{
+			"dtRatio": 0.5,
+			"t0Offset": 0.5,
+			"token": "advectVAdj"
+		},
+		{
+			"dtRatio": 0.0,
+			"t0Offset": 0.0,
+			"token": "advanceTbydt"
+		}
+	],
+	"operators": {
+		"interpolator": {
+			"stencilWidth": [
+				8,
+				8,
+				8,
+				8,
+				8,
+				8
+			]
+		}
+	},
+	"simulationTime": {
+		"T": 500,
+		"dt": 0.019,
+		"restart": false
+	}
+}

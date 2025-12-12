@@ -1,0 +1,584 @@
+ MPI_THREAD_SINGLE initialized.
+
+
+         ____  _____  _   _  _____       
+        / ___|| ____|| \ | || ____|      
+       | |  _ |  _|  |  \| ||  _|        
+       | |_| || |___ | |\  || |___       
+        \____||_____||_| \_||_____|      
+
+*****************************************************
+***** This is GENE (release    3.2 - alpha 0) *******
+***** GIT branch hash: 079d681                *******
+***** GIT main   hash: 079d681                *******
+*****************************************************
+
+
+            ____  ____   _   _            
+           / ___||  _ \ | | | |           
+          | |  _ | |_) || | | |           
+          | |_| ||  __/ | |_| |           
+           \____||_|     \___/            
+                                          
+
+
+We have   4 MPI processes per node.
+We have      32 MPI tasks.
+We have  4 GPU device(s) per node.
+WARNING: no dpdx_term treatment defined!!
+         Setting dpdx_term = 'gradB_eq_curv' ... 
+*****************************************************
+** Physical parameters                             **
+*****************************************************
+** local in radial direction                       **
+** Electrons are adiabatic, beta is set to zero    **
+** Using no sources                                **
+** without collisions                              **
+*****************************************************
+
+
+ 
+------------------------------
+Starting optimization routine 
+Bytes written: 11010048
+
+Choice for parallelization:    1   8   1   1   1   4
+Choice for alternative routines:  1 1 1 1 1 2 1 2 1
+Choice for number of blocks:     1
+Fastest tagvals =  {  -1 {  -1 } }
+Time for chosen settings:  3.1017E-02
+using BLAS routines for (i,j) loops: yes
+
+time for performance optimization:     1.79s
+ 
+**************************************************
+
+
+*************************************************************
+Starting time step computation with PETSC-3.21.1/SLEPc-3.21.1
+*************************************************************
+selecting   3  ky modes
+time step limit set to  2.560E-02
+testing time step limit without hypz_compensation:
+   ***no eigenvalues computed for ky=   0.000    !!***
+  number of ev iterations:    12
+   ***no eigenvalues computed for ky=  0.3000E-01!!***
+  number of ev iterations:    12
+   ***no eigenvalues computed for ky=  0.8100    !!***
+  number of ev iterations:    12
+  no additional restriction due to small real eigenvalue found.
+  not using hyp_z compensation.
+dt_max =    2.560E-02 found with SLEPc
+calculated    4 eigenvectors
+time for computation of dt_max:     1.241 sec
+******************************************************
+initialize the parallelization (xyzvws):    1   1   4   8   1   1
+and the perf_vec=111112121
+Initialization time:     0.1634s
+
+initialization: ppj                 
+  power law in kx and ky, powers of jacobian in z
+  kx to the power of -1.000E+00, ky to the power of -1.000E+00, jacobian to the power of  2.000E+00
+
+********************************************************************************
+** Computed physical parameters                                               **
+********************************************************************************
+** -------------------------------------------------------------------------- **
+********************************************************************************
+ 
+ 
+********************************************************************************
+** Numerical parameters for the simulation                                    **
+********************************************************************************
+** nonlinear computation                                                      **
+** double precision computation                                               **
+** recurrence times:                                                          **
+** ions         :   22.95490                                                  **
+** parallel direction: 4th order Arakawa scheme                               **
+** parallel direction: 4th order centered differences                         **
+** No radial derivative scheme set.                                           **
+** N for parallel boundary condition: 4                                       **
+** -- hyper diffusion --                                                      **
+** hyp_z =      2.000                                                         **
+** hyp_v =      0.200                                                         **
+********************************************************************************
+
+*** entering time loop ***
+maximal     160000 timesteps.
+Time per timestep         1 is      0.041
+Time per timestep         2 is      0.029
+Time per timestep         3 is      0.029
+Time per timestep         4 is      0.029
+Time per timestep         5 is      0.029
+Time per timestep         6 is      0.029
+Time per timestep         7 is      0.029
+Time per timestep         8 is      0.030
+Time per timestep         9 is      0.029
+Time per timestep       499 is      0.030
+Time per timestep       999 is      0.029
+Time per timestep      1499 is      0.030
+Time per timestep      1999 is      0.029
+Bytes written: 11010048
+Time per timestep      2499 is      0.029
+Time per timestep      2999 is      0.029
+Time per timestep      3499 is      0.029
+Time per timestep      3999 is      0.029
+Time per timestep      4499 is      0.029
+Bytes written: 11010048
+Time per timestep      4999 is      0.030
+Time per timestep      5499 is      0.029
+Time per timestep      5999 is      0.028
+Time per timestep      6499 is      0.030
+Time per timestep      6999 is      0.030
+Bytes written: 11010048
+Time per timestep      7499 is      0.029
+Time per timestep      7999 is      0.029
+Time per timestep      8499 is      0.030
+Time per timestep      8999 is      0.029
+Bytes written: 11010048
+Time per timestep      9499 is      0.029
+Time per timestep      9999 is      0.030
+Time per timestep     10499 is      0.030
+Time per timestep     10999 is      0.029
+Time per timestep     11499 is      0.029
+Bytes written: 11010048
+Time per timestep     11999 is      0.030
+Time per timestep     12499 is      0.029
+Time per timestep     12999 is      0.029
+Time per timestep     13499 is      0.028
+Time per timestep     13999 is      0.028
+Bytes written: 11010048
+Time per timestep     14499 is      0.029
+Time per timestep     14999 is      0.030
+Time per timestep     15499 is      0.028
+Time per timestep     15999 is      0.029
+Time per timestep     16499 is      0.028
+Bytes written: 11010048
+Time per timestep     16999 is      0.029
+Time per timestep     17499 is      0.029
+Time per timestep     17999 is      0.029
+Time per timestep     18499 is      0.029
+Bytes written: 11010048
+Time per timestep     18999 is      0.029
+Time per timestep     19499 is      0.029
+Time per timestep     19999 is      0.029
+Time per timestep     20499 is      0.030
+Time per timestep     20999 is      0.029
+Bytes written: 11010048
+Time per timestep     21499 is      0.029
+Time per timestep     21999 is      0.029
+Time per timestep     22499 is      0.029
+Time per timestep     22999 is      0.029
+Time per timestep     23499 is      0.030
+Bytes written: 11010048
+Time per timestep     23999 is      0.029
+Time per timestep     24499 is      0.030
+Time per timestep     24999 is      0.029
+Time per timestep     25499 is      0.030
+Time per timestep     25999 is      0.030
+Bytes written: 11010048
+Time per timestep     26499 is      0.029
+Time per timestep     26999 is      0.029
+Time per timestep     27499 is      0.030
+Time per timestep     27999 is      0.029
+Bytes written: 11010048
+Time per timestep     28499 is      0.029
+Time per timestep     28999 is      0.029
+Time per timestep     29499 is      0.029
+Time per timestep     29999 is      0.029
+Time per timestep     30499 is      0.030
+Bytes written: 11010048
+Time per timestep     30999 is      0.030
+Time per timestep     31499 is      0.029
+Time per timestep     31999 is      0.029
+Time per timestep     32499 is      0.030
+Time per timestep     32999 is      0.029
+Bytes written: 11010048
+Time per timestep     33499 is      0.029
+Time per timestep     33999 is      0.029
+Time per timestep     34499 is      0.029
+Time per timestep     34999 is      0.029
+Time per timestep     35499 is      0.029
+Bytes written: 11010048
+Time per timestep     35999 is      0.029
+Time per timestep     36499 is      0.029
+Time per timestep     36999 is      0.029
+Time per timestep     37499 is      0.029
+Bytes written: 11010048
+Time per timestep     37999 is      0.028
+Time per timestep     38499 is      0.029
+Time per timestep     38999 is      0.029
+Time per timestep     39499 is      0.029
+Time per timestep     39999 is      0.029
+Bytes written: 11010048
+Time per timestep     40499 is      0.030
+Time per timestep     40999 is      0.029
+Time per timestep     41499 is      0.028
+Time per timestep     41999 is      0.029
+Time per timestep     42499 is      0.029
+Bytes written: 11010048
+Time per timestep     42999 is      0.030
+Time per timestep     43499 is      0.030
+Time per timestep     43999 is      0.029
+Time per timestep     44499 is      0.030
+Time per timestep     44999 is      0.029
+Bytes written: 11010048
+Time per timestep     45499 is      0.029
+Time per timestep     45999 is      0.030
+Time per timestep     46499 is      0.029
+Time per timestep     46999 is      0.029
+Bytes written: 11010048
+Time per timestep     47499 is      0.036
+Time per timestep     47999 is      0.029
+Time per timestep     48499 is      0.030
+Time per timestep     48999 is      0.029
+Time per timestep     49499 is      0.029
+Bytes written: 11010048
+Time per timestep     49999 is      0.030
+Time per timestep     50499 is      0.029
+Time per timestep     50999 is      0.029
+Time per timestep     51499 is      0.029
+Time per timestep     51999 is      0.029
+Bytes written: 11010048
+Time per timestep     52499 is      0.029
+Time per timestep     52999 is      0.029
+Time per timestep     53499 is      0.029
+Time per timestep     53999 is      0.028
+Time per timestep     54499 is      0.030
+Bytes written: 11010048
+Time per timestep     54999 is      0.029
+Time per timestep     55499 is      0.029
+Time per timestep     55999 is      0.029
+Time per timestep     56499 is      0.029
+Time per timestep     56999 is      0.029
+Bytes written: 11010048
+Time per timestep     57499 is      0.029
+Time per timestep     57999 is      0.029
+Time per timestep     58499 is      0.029
+Time per timestep     58999 is      0.029
+Bytes written: 11010048
+Time per timestep     59499 is      0.029
+Time per timestep     59999 is      0.029
+Time per timestep     60499 is      0.030
+Time per timestep     60999 is      0.030
+Time per timestep     61499 is      0.029
+Bytes written: 11010048
+Time per timestep     61999 is      0.029
+Time per timestep     62499 is      0.029
+Time per timestep     62999 is      0.030
+Time per timestep     63499 is      0.030
+Time per timestep     63999 is      0.029
+Bytes written: 11010048
+Time per timestep     64499 is      0.029
+Time per timestep     64999 is      0.029
+Time per timestep     65499 is      0.030
+Time per timestep     65999 is      0.029
+Time per timestep     66499 is      0.030
+Bytes written: 11010048
+Time per timestep     66999 is      0.029
+Time per timestep     67499 is      0.030
+Time per timestep     67999 is      0.029
+Time per timestep     68499 is      0.029
+Bytes written: 11010048
+Time per timestep     68999 is      0.029
+Time per timestep     69499 is      0.029
+Time per timestep     69999 is      0.029
+Time per timestep     70499 is      0.029
+Time per timestep     70999 is      0.030
+Bytes written: 11010048
+Time per timestep     71499 is      0.029
+Time per timestep     71999 is      0.029
+Time per timestep     72499 is      0.029
+Time per timestep     72999 is      0.029
+Time per timestep     73499 is      0.029
+Bytes written: 11010048
+Time per timestep     73999 is      0.030
+Time per timestep     74499 is      0.030
+Time per timestep     74999 is      0.029
+Time per timestep     75499 is      0.030
+Time per timestep     75999 is      0.029
+Bytes written: 11010048
+Time per timestep     76499 is      0.029
+Time per timestep     76999 is      0.029
+Time per timestep     77499 is      0.029
+Time per timestep     77999 is      0.029
+Bytes written: 11010048
+Time per timestep     78499 is      0.029
+Time per timestep     78999 is      0.029
+Time per timestep     79499 is      0.029
+Time per timestep     79999 is      0.029
+Time per timestep     80499 is      0.030
+Bytes written: 11010048
+Time per timestep     80999 is      0.029
+Time per timestep     81499 is      0.029
+Time per timestep     81999 is      0.029
+Time per timestep     82499 is      0.029
+Time per timestep     82999 is      0.030
+Bytes written: 11010048
+Time per timestep     83499 is      0.029
+Time per timestep     83999 is      0.030
+Time per timestep     84499 is      0.030
+Time per timestep     84999 is      0.029
+Time per timestep     85499 is      0.029
+Bytes written: 11010048
+Time per timestep     85999 is      0.030
+Time per timestep     86499 is      0.030
+Time per timestep     86999 is      0.029
+Time per timestep     87499 is      0.029
+Bytes written: 11010048
+Time per timestep     87999 is      0.029
+Time per timestep     88499 is      0.029
+Time per timestep     88999 is      0.030
+Time per timestep     89499 is      0.029
+Time per timestep     89999 is      0.029
+Bytes written: 11010048
+Time per timestep     90499 is      0.030
+Time per timestep     90999 is      0.029
+Time per timestep     91499 is      0.030
+Time per timestep     91999 is      0.029
+Time per timestep     92499 is      0.029
+Bytes written: 11010048
+Time per timestep     92999 is      0.030
+Time per timestep     93499 is      0.030
+Time per timestep     93999 is      0.029
+Time per timestep     94499 is      0.029
+Time per timestep     94999 is      0.029
+Bytes written: 11010048
+Time per timestep     95499 is      0.029
+Time per timestep     95999 is      0.030
+Time per timestep     96499 is      0.030
+Time per timestep     96999 is      0.029
+Bytes written: 11010048
+Time per timestep     97499 is      0.036
+Time per timestep     97999 is      0.030
+Time per timestep     98499 is      0.030
+Time per timestep     98999 is      0.029
+Time per timestep     99499 is      0.029
+Bytes written: 11010048
+Time per timestep     99999 is      0.029
+Time per timestep    100499 is      0.028
+Time per timestep    100999 is      0.029
+Time per timestep    101499 is      0.029
+Time per timestep    101999 is      0.029
+Bytes written: 11010048
+Time per timestep    102499 is      0.029
+Time per timestep    102999 is      0.029
+Time per timestep    103499 is      0.030
+Time per timestep    103999 is      0.029
+Time per timestep    104499 is      0.029
+Bytes written: 11010048
+Time per timestep    104999 is      0.029
+Time per timestep    105499 is      0.029
+Time per timestep    105999 is      0.029
+Time per timestep    106499 is      0.029
+Time per timestep    106999 is      0.030
+Bytes written: 11010048
+Time per timestep    107499 is      0.029
+Time per timestep    107999 is      0.029
+Time per timestep    108499 is      0.029
+Time per timestep    108999 is      0.028
+Bytes written: 11010048
+Time per timestep    109499 is      0.030
+Time per timestep    109999 is      0.028
+Time per timestep    110499 is      0.029
+Time per timestep    110999 is      0.029
+Time per timestep    111499 is      0.029
+Bytes written: 11010048
+Time per timestep    111999 is      0.029
+Time per timestep    112499 is      0.029
+Time per timestep    112999 is      0.028
+Time per timestep    113499 is      0.029
+Time per timestep    113999 is      0.028
+Bytes written: 11010048
+Time per timestep    114499 is      0.029
+Time per timestep    114999 is      0.028
+Time per timestep    115499 is      0.029
+Time per timestep    115999 is      0.029
+Time per timestep    116499 is      0.029
+Bytes written: 11010048
+Time per timestep    116999 is      0.029
+Time per timestep    117499 is      0.029
+Time per timestep    117999 is      0.029
+Time per timestep    118499 is      0.029
+Bytes written: 11010048
+Time per timestep    118999 is      0.029
+Time per timestep    119499 is      0.029
+Time per timestep    119999 is      0.029
+Time per timestep    120499 is      0.029
+Time per timestep    120999 is      0.029
+Bytes written: 11010048
+Time per timestep    121499 is      0.029
+Time per timestep    121999 is      0.029
+Time per timestep    122499 is      0.029
+Time per timestep    122999 is      0.029
+Time per timestep    123499 is      0.028
+Bytes written: 11010048
+Time per timestep    123999 is      0.030
+Time per timestep    124499 is      0.029
+Time per timestep    124999 is      0.029
+Time per timestep    125499 is      0.029
+Time per timestep    125999 is      0.028
+Bytes written: 11010048
+Time per timestep    126499 is      0.028
+Time per timestep    126999 is      0.029
+Time per timestep    127499 is      0.029
+Time per timestep    127999 is      0.029
+Bytes written: 11010048
+Time per timestep    128499 is      0.029
+Time per timestep    128999 is      0.029
+Time per timestep    129499 is      0.029
+Time per timestep    129999 is      0.029
+Time per timestep    130499 is      0.030
+Bytes written: 11010048
+Time per timestep    130999 is      0.030
+Time per timestep    131499 is      0.029
+Time per timestep    131999 is      0.029
+Time per timestep    132499 is      0.029
+Time per timestep    132999 is      0.029
+Bytes written: 11010048
+Time per timestep    133499 is      0.029
+Time per timestep    133999 is      0.029
+Time per timestep    134499 is      0.028
+Time per timestep    134999 is      0.028
+Time per timestep    135499 is      0.029
+Bytes written: 11010048
+Time per timestep    135999 is      0.029
+Time per timestep    136499 is      0.029
+Time per timestep    136999 is      0.030
+Time per timestep    137499 is      0.029
+Bytes written: 11010048
+Time per timestep    137999 is      0.029
+Time per timestep    138499 is      0.028
+Time per timestep    138999 is      0.029
+Time per timestep    139499 is      0.029
+Time per timestep    139999 is      0.030
+Bytes written: 11010048
+Time per timestep    140499 is      0.029
+Time per timestep    140999 is      0.029
+Time per timestep    141499 is      0.029
+Time per timestep    141999 is      0.030
+Time per timestep    142499 is      0.029
+Bytes written: 11010048
+Time per timestep    142999 is      0.029
+Time per timestep    143499 is      0.029
+Time per timestep    143999 is      0.028
+Time per timestep    144499 is      0.030
+Time per timestep    144999 is      0.029
+Bytes written: 11010048
+Time per timestep    145499 is      0.029
+Time per timestep    145999 is      0.030
+Time per timestep    146499 is      0.029
+Time per timestep    146999 is      0.029
+Bytes written: 11010048
+Time per timestep    147499 is      0.036
+Time per timestep    147999 is      0.029
+Time per timestep    148499 is      0.030
+Time per timestep    148999 is      0.030
+Time per timestep    149499 is      0.029
+Bytes written: 11010048
+Time per timestep    149999 is      0.029
+Time per timestep    150499 is      0.029
+Time per timestep    150999 is      0.029
+Time per timestep    151499 is      0.029
+Time per timestep    151999 is      0.029
+Bytes written: 11010048
+Time per timestep    152499 is      0.029
+Time per timestep    152999 is      0.029
+Time per timestep    153499 is      0.029
+Time per timestep    153999 is      0.029
+Time per timestep    154499 is      0.029
+Bytes written: 11010048
+Time per timestep    154999 is      0.029
+Time per timestep    155499 is      0.029
+Time per timestep    155999 is      0.029
+Time per timestep    156499 is      0.029
+Time per timestep    156999 is      0.029
+Bytes written: 11010048
+Time per timestep    157499 is      0.028
+Time per timestep    157999 is      0.029
+Time per timestep    158499 is      0.029
+Time per timestep    158999 is      0.029
+Bytes written: 11010048
+Time per timestep    159499 is      0.029
+Time per timestep    159999 is      0.029
+Time per timestep    160000 is      0.282
+Total time of initial value computation:   7374.600 sec
+Computed 160000 time steps
+Time per time step:     0.046 sec
+Mean time per timestep   =     0.046 sec
+Stddev time per timestep =     0.051 sec
+Min/Max time per timestep=     0.027 /      0.529 sec
+Computed the total_bandwidth_available for machine none:         0 GB/s
+    =========================================================
+    == The figure of merit of this run was             0.0 ==
+    =========================================================
+ Your run shows a very good performance.
+
+Time for GENE simulation:   7378.657 sec
+                     Time loop:   7374.670s (100.0%) in         1 calls, min/max =7374.6698 7374.6698
+                   fieldsolver:   3609.117s ( 48.9%) in    640000 calls, min/max =   0.0042    0.0169
+           RHS w/o fieldsolver:    993.137s ( 13.5%) in    640000 calls, min/max =   0.0013    0.0051
+                   Diagnostics:   2703.221s ( 36.7%) in    160001 calls, min/max =   0.0000    0.5110
+                 RK operations:     54.562s (  0.7%) in   1120000 calls, min/max =   0.0000    0.0018
+                initialization:      0.163s (  0.0%) in         1 calls, min/max =   0.1634    0.1634
+Total wallclock time for GENE:   7379.390 sec
+Process    0
+Process    1
+Process    2
+Process    3
+Process    4
+Process    5
+Process    6
+Process    7
+Process    8
+Process   12
+Process   13
+Process   14
+Process   15
+Process   16
+Process   17
+Process   18
+Process   19
+Process   20
+Process   21
+Process   22
+Process   23
+Process   24
+Process   25
+Process   26
+Process   27
+Process   28
+Process   29
+Process   30
+Process   31
+Process    9
+Process   10
+Process   11
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: djimenez(1910)
+Job name:  GENE
+Node list: ravg[1165-1172]
+Job start: Fri May 23 09:38:42 CEST 2025
+Job end:   Fri May 23 11:41:55 CEST 2025
+Work dir:  /raven/u/djimenez/MARCH_2025/remote-origin/prob_new_case
+Command:   /raven/u/djimenez/MARCH_2025/remote-origin/prob_new_case/submit_gpu.cmd
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS       MaxRSS       AveRSS    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+18616954            GENE      8          1152                             02:03:13      0:0
+18616954.0    gene_raven      8     32   1152      802.38M      773.06M   02:03:07      0:0
+  
+Maximum memory per node: 3.365413 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 5.5 %
+  

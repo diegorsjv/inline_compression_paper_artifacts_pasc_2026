@@ -1,0 +1,17 @@
+/var/spool/slurmd/job22927232/slurm_script: line 19: 0.00.00000001: command not found
+srun: Step created for StepId=22927232.4
+srun: Step created for StepId=22927232.9
+srun: Step created for StepId=22927232.171
+srun: Step created for StepId=22927232.173
+srun: Step created for StepId=22927232.174
+srun: Step created for StepId=22927232.178
+srun: Step created for StepId=22927232.219
+srun: Step created for StepId=22927232.222
+srun: Step created for StepId=22927232.225
+srun: Step created for StepId=22927232.226
+srun: Step created for StepId=22927232.265
+srun: Step created for StepId=22927232.266
+srun: Step created for StepId=22927232.278
+srun: Step created for StepId=22927232.279
+srun: Step created for StepId=22927232.303
+srun: Step created for StepId=22927232.304

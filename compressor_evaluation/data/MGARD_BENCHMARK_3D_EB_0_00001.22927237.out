@@ -1,0 +1,5467 @@
+0.75 MB  1
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00908082 seconds
+
+Average compression time: 0.00858897 seconds
+
+Average decompression time: 0.000491734 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  2
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00727546 seconds
+
+Average compression time: 0.00678472 seconds
+
+Average decompression time: 0.000490617 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  3
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00647672 seconds
+
+Average compression time: 0.00598547 seconds
+
+Average decompression time: 0.000491124 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  4
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00729403 seconds
+
+Average compression time: 0.00680081 seconds
+
+Average decompression time: 0.000493094 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  5
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00650589 seconds
+
+Average compression time: 0.00601015 seconds
+
+Average decompression time: 0.000495626 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  6
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00655676 seconds
+
+Average compression time: 0.00606328 seconds
+
+Average decompression time: 0.000493354 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  7
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00809573 seconds
+
+Average compression time: 0.00760237 seconds
+
+Average decompression time: 0.000493228 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  8
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00730273 seconds
+
+Average compression time: 0.00681272 seconds
+
+Average decompression time: 0.000489892 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  9
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00805195 seconds
+
+Average compression time: 0.00755474 seconds
+
+Average decompression time: 0.000497079 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+0.75 MB  10
+Dimensions: 96,8,8,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 786432
+
+Average iteration time: 0.00651647 seconds
+
+Average compression time: 0.00601713 seconds
+
+Average decompression time: 0.000499226 seconds
+Compressed data size is: 786525
+Compression ratio: 0.999882
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  1
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00693968 seconds
+
+Average compression time: 0.00644395 seconds
+
+Average decompression time: 0.000495607 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  2
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.0079476 seconds
+
+Average compression time: 0.00744938 seconds
+
+Average decompression time: 0.000498087 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  3
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00946651 seconds
+
+Average compression time: 0.0089689 seconds
+
+Average decompression time: 0.000497501 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  4
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00819279 seconds
+
+Average compression time: 0.00769761 seconds
+
+Average decompression time: 0.000495044 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  5
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00931971 seconds
+
+Average compression time: 0.00882789 seconds
+
+Average decompression time: 0.000491689 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  6
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00780774 seconds
+
+Average compression time: 0.00730937 seconds
+
+Average decompression time: 0.000498256 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  7
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00860394 seconds
+
+Average compression time: 0.008106 seconds
+
+Average decompression time: 0.000497821 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  8
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00789432 seconds
+
+Average compression time: 0.00739913 seconds
+
+Average decompression time: 0.000495064 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  9
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00765859 seconds
+
+Average compression time: 0.00716663 seconds
+
+Average decompression time: 0.000491835 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1.5 MB  10
+Dimensions: 96,8,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1572864
+
+Average iteration time: 0.00793892 seconds
+
+Average compression time: 0.00744345 seconds
+
+Average decompression time: 0.000495354 seconds
+Compressed data size is: 1572957
+Compression ratio: 0.999941
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  1
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.0100786 seconds
+
+Average compression time: 0.00957157 seconds
+
+Average decompression time: 0.000506961 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  2
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.00942798 seconds
+
+Average compression time: 0.00892577 seconds
+
+Average decompression time: 0.000502082 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  3
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.0105994 seconds
+
+Average compression time: 0.0100923 seconds
+
+Average decompression time: 0.000506954 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  4
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.0108043 seconds
+
+Average compression time: 0.0102956 seconds
+
+Average decompression time: 0.000508596 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  5
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.00968713 seconds
+
+Average compression time: 0.00918099 seconds
+
+Average decompression time: 0.000506004 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  6
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.0106417 seconds
+
+Average compression time: 0.0101381 seconds
+
+Average decompression time: 0.00050348 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  7
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.00957424 seconds
+
+Average compression time: 0.00906768 seconds
+
+Average decompression time: 0.000506444 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  8
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.0103649 seconds
+
+Average compression time: 0.00985995 seconds
+
+Average decompression time: 0.000504867 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  9
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.00903731 seconds
+
+Average compression time: 0.0085346 seconds
+
+Average decompression time: 0.000502588 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+3 MB  10
+Dimensions: 96,16,16,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 3145728
+
+Average iteration time: 0.0102508 seconds
+
+Average compression time: 0.009739 seconds
+
+Average decompression time: 0.000511664 seconds
+Compressed data size is: 3145821
+Compression ratio: 0.99997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  1
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.010614 seconds
+
+Average compression time: 0.0101047 seconds
+
+Average decompression time: 0.000509231 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  2
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.0105159 seconds
+
+Average compression time: 0.0100078 seconds
+
+Average decompression time: 0.000507932 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  3
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.00986086 seconds
+
+Average compression time: 0.00935481 seconds
+
+Average decompression time: 0.000505931 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  4
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.0109003 seconds
+
+Average compression time: 0.0103871 seconds
+
+Average decompression time: 0.0005131 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  5
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.0107126 seconds
+
+Average compression time: 0.0101995 seconds
+
+Average decompression time: 0.000512974 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  6
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.00887629 seconds
+
+Average compression time: 0.00836487 seconds
+
+Average decompression time: 0.000511292 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  7
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.00888125 seconds
+
+Average compression time: 0.00837515 seconds
+
+Average decompression time: 0.000505975 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  8
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.00890529 seconds
+
+Average compression time: 0.00839574 seconds
+
+Average decompression time: 0.000509412 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  9
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.00819964 seconds
+
+Average compression time: 0.00769119 seconds
+
+Average decompression time: 0.000508325 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+4.5 MB  10
+Dimensions: 96,16,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 4718592
+
+Average iteration time: 0.00853705 seconds
+
+Average compression time: 0.00802006 seconds
+
+Average decompression time: 0.00051687 seconds
+Compressed data size is: 4718685
+Compression ratio: 0.99998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  1
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.00930896 seconds
+
+Average compression time: 0.00879115 seconds
+
+Average decompression time: 0.000517681 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  2
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.0103921 seconds
+
+Average compression time: 0.00987263 seconds
+
+Average decompression time: 0.000519374 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  3
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.00970422 seconds
+
+Average compression time: 0.00917972 seconds
+
+Average decompression time: 0.000524364 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  4
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.00929566 seconds
+
+Average compression time: 0.00877596 seconds
+
+Average decompression time: 0.000519566 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  5
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.00928349 seconds
+
+Average compression time: 0.00876303 seconds
+
+Average decompression time: 0.000520322 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  6
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.0104914 seconds
+
+Average compression time: 0.00997438 seconds
+
+Average decompression time: 0.000516884 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  7
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.00932854 seconds
+
+Average compression time: 0.00881059 seconds
+
+Average decompression time: 0.00051782 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  8
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.00838279 seconds
+
+Average compression time: 0.00786627 seconds
+
+Average decompression time: 0.000516382 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  9
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.0102945 seconds
+
+Average compression time: 0.00977397 seconds
+
+Average decompression time: 0.000520372 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+6.75 MB  10
+Dimensions: 96,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 7077888
+
+Average iteration time: 0.00898587 seconds
+
+Average compression time: 0.00846963 seconds
+
+Average decompression time: 0.000516102 seconds
+Compressed data size is: 7077981
+Compression ratio: 0.999987
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  1
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.00967658 seconds
+
+Average compression time: 0.00914601 seconds
+
+Average decompression time: 0.000530453 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  2
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.0103709 seconds
+
+Average compression time: 0.00983593 seconds
+
+Average decompression time: 0.000534862 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  3
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.00944908 seconds
+
+Average compression time: 0.00891946 seconds
+
+Average decompression time: 0.0005295 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  4
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.00943285 seconds
+
+Average compression time: 0.00890652 seconds
+
+Average decompression time: 0.000526207 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  5
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.00944918 seconds
+
+Average compression time: 0.00891756 seconds
+
+Average decompression time: 0.000531489 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  6
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.00939574 seconds
+
+Average compression time: 0.00886916 seconds
+
+Average decompression time: 0.000526452 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  7
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.0103824 seconds
+
+Average compression time: 0.00985134 seconds
+
+Average decompression time: 0.000530907 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  8
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.0098837 seconds
+
+Average compression time: 0.00935149 seconds
+
+Average decompression time: 0.000532086 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  9
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.0096718 seconds
+
+Average compression time: 0.00913934 seconds
+
+Average decompression time: 0.00053233 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+9  MB  10
+Dimensions: 96,24,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 9437184
+
+Average iteration time: 0.00934251 seconds
+
+Average compression time: 0.00881679 seconds
+
+Average decompression time: 0.000525589 seconds
+Compressed data size is: 9437277
+Compression ratio: 0.99999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  1
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.00948784 seconds
+
+Average compression time: 0.00895183 seconds
+
+Average decompression time: 0.000535891 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  2
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.0105897 seconds
+
+Average compression time: 0.0100532 seconds
+
+Average decompression time: 0.000536369 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  3
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.00956073 seconds
+
+Average compression time: 0.00902597 seconds
+
+Average decompression time: 0.000534634 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  4
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.0108335 seconds
+
+Average compression time: 0.0102917 seconds
+
+Average decompression time: 0.000541604 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  5
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.00953272 seconds
+
+Average compression time: 0.00899993 seconds
+
+Average decompression time: 0.00053266 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  6
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.00893541 seconds
+
+Average compression time: 0.00840361 seconds
+
+Average decompression time: 0.000531683 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  7
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.00958015 seconds
+
+Average compression time: 0.00904663 seconds
+
+Average decompression time: 0.000533387 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  8
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.00915215 seconds
+
+Average compression time: 0.00862261 seconds
+
+Average decompression time: 0.000529423 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  9
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.0096394 seconds
+
+Average compression time: 0.00910565 seconds
+
+Average decompression time: 0.000533626 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+10.125  MB  10
+Dimensions: 144,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 10616832
+
+Average iteration time: 0.00950394 seconds
+
+Average compression time: 0.00897007 seconds
+
+Average decompression time: 0.000533742 seconds
+Compressed data size is: 10616927
+Compression ratio: 0.999991
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  1
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.0104084 seconds
+
+Average compression time: 0.00986437 seconds
+
+Average decompression time: 0.000543902 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  2
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.00885892 seconds
+
+Average compression time: 0.00831628 seconds
+
+Average decompression time: 0.000542504 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  3
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.00869869 seconds
+
+Average compression time: 0.00816056 seconds
+
+Average decompression time: 0.000538034 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  4
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.00873403 seconds
+
+Average compression time: 0.00819314 seconds
+
+Average decompression time: 0.000540751 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  5
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.00877678 seconds
+
+Average compression time: 0.00823296 seconds
+
+Average decompression time: 0.0005437 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  6
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.011022 seconds
+
+Average compression time: 0.0104766 seconds
+
+Average decompression time: 0.000545243 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  7
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.00957775 seconds
+
+Average compression time: 0.00903093 seconds
+
+Average decompression time: 0.000546693 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  8
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.00891008 seconds
+
+Average compression time: 0.00836503 seconds
+
+Average decompression time: 0.000544925 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  9
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.00876951 seconds
+
+Average compression time: 0.00822869 seconds
+
+Average decompression time: 0.000540704 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+12 MB  10
+Dimensions: 96,32,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 12582912
+
+Average iteration time: 0.00869565 seconds
+
+Average compression time: 0.00815306 seconds
+
+Average decompression time: 0.00054248 seconds
+Compressed data size is: 12583005
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  1
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.00907624 seconds
+
+Average compression time: 0.00852705 seconds
+
+Average decompression time: 0.000549063 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  2
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.0112868 seconds
+
+Average compression time: 0.0107373 seconds
+
+Average decompression time: 0.000549331 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  3
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.00912675 seconds
+
+Average compression time: 0.00857939 seconds
+
+Average decompression time: 0.000547254 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  4
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.00998757 seconds
+
+Average compression time: 0.00944033 seconds
+
+Average decompression time: 0.000547123 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  5
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.0100557 seconds
+
+Average compression time: 0.00950903 seconds
+
+Average decompression time: 0.000546587 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  6
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.010064 seconds
+
+Average compression time: 0.00951449 seconds
+
+Average decompression time: 0.000549375 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  7
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.0109908 seconds
+
+Average compression time: 0.0104406 seconds
+
+Average decompression time: 0.000550073 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  8
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.0100037 seconds
+
+Average compression time: 0.0094566 seconds
+
+Average decompression time: 0.000546947 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  9
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.00914934 seconds
+
+Average compression time: 0.00860305 seconds
+
+Average decompression time: 0.00054617 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+13.5 MB  10
+Dimensions: 192,24,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 14155776
+
+Average iteration time: 0.00909744 seconds
+
+Average compression time: 0.00855164 seconds
+
+Average decompression time: 0.000545671 seconds
+Compressed data size is: 14155871
+Compression ratio: 0.999993
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  1
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.011038 seconds
+
+Average compression time: 0.0104651 seconds
+
+Average decompression time: 0.000572753 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  2
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.0103707 seconds
+
+Average compression time: 0.00979763 seconds
+
+Average decompression time: 0.000572957 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  3
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.0103877 seconds
+
+Average compression time: 0.00981109 seconds
+
+Average decompression time: 0.00057651 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  4
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.0112799 seconds
+
+Average compression time: 0.0107056 seconds
+
+Average decompression time: 0.000574185 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  5
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.00957187 seconds
+
+Average compression time: 0.00899195 seconds
+
+Average decompression time: 0.000579796 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  6
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.0102096 seconds
+
+Average compression time: 0.009633 seconds
+
+Average decompression time: 0.000576449 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  7
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.0110693 seconds
+
+Average compression time: 0.0104935 seconds
+
+Average decompression time: 0.000575679 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  8
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.0111028 seconds
+
+Average compression time: 0.0105316 seconds
+
+Average decompression time: 0.000571051 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  9
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.0110256 seconds
+
+Average compression time: 0.0104517 seconds
+
+Average decompression time: 0.000573765 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+18 MB  10
+Dimensions: 192,32,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 18874368
+
+Average iteration time: 0.0104369 seconds
+
+Average compression time: 0.00986056 seconds
+
+Average decompression time: 0.000576256 seconds
+Compressed data size is: 18874463
+Compression ratio: 0.999995
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  1
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0115232 seconds
+
+Average compression time: 0.0109273 seconds
+
+Average decompression time: 0.000595765 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  2
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0118154 seconds
+
+Average compression time: 0.0112252 seconds
+
+Average decompression time: 0.000590029 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  3
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0104747 seconds
+
+Average compression time: 0.00988826 seconds
+
+Average decompression time: 0.000586359 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  4
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0113355 seconds
+
+Average compression time: 0.0107451 seconds
+
+Average decompression time: 0.000590275 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  5
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0107235 seconds
+
+Average compression time: 0.0101319 seconds
+
+Average decompression time: 0.000591513 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  6
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0118536 seconds
+
+Average compression time: 0.0112622 seconds
+
+Average decompression time: 0.000591274 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  7
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0097425 seconds
+
+Average compression time: 0.00915085 seconds
+
+Average decompression time: 0.00059152 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  8
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0120121 seconds
+
+Average compression time: 0.0114241 seconds
+
+Average decompression time: 0.000587878 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  9
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.0106024 seconds
+
+Average compression time: 0.0100152 seconds
+
+Average decompression time: 0.000586991 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+20.25 MB  10
+Dimensions: 192,36,24,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 21233664
+
+Average iteration time: 0.00974655 seconds
+
+Average compression time: 0.00915529 seconds
+
+Average decompression time: 0.000591149 seconds
+Compressed data size is: 21233759
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  1
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0112236 seconds
+
+Average compression time: 0.0106158 seconds
+
+Average decompression time: 0.000607642 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  2
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.010485 seconds
+
+Average compression time: 0.00987836 seconds
+
+Average decompression time: 0.000606575 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  3
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0114004 seconds
+
+Average compression time: 0.0107907 seconds
+
+Average decompression time: 0.000609602 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  4
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0110448 seconds
+
+Average compression time: 0.0104367 seconds
+
+Average decompression time: 0.000607939 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  5
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0113452 seconds
+
+Average compression time: 0.010736 seconds
+
+Average decompression time: 0.000609151 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  6
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0122894 seconds
+
+Average compression time: 0.0116786 seconds
+
+Average decompression time: 0.000610672 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  7
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0116234 seconds
+
+Average compression time: 0.0110159 seconds
+
+Average decompression time: 0.000607405 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  8
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0118661 seconds
+
+Average compression time: 0.0112541 seconds
+
+Average decompression time: 0.000611912 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  9
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0108902 seconds
+
+Average compression time: 0.0102792 seconds
+
+Average decompression time: 0.000610816 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+23.625 MB  10
+Dimensions: 192,36,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 24772608
+
+Average iteration time: 0.0117207 seconds
+
+Average compression time: 0.0111115 seconds
+
+Average decompression time: 0.000609073 seconds
+Compressed data size is: 24772703
+Compression ratio: 0.999996
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  1
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.0118085 seconds
+
+Average compression time: 0.0111886 seconds
+
+Average decompression time: 0.000619782 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  2
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.0117445 seconds
+
+Average compression time: 0.0111251 seconds
+
+Average decompression time: 0.00061929 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  3
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.0114612 seconds
+
+Average compression time: 0.0108398 seconds
+
+Average decompression time: 0.000621234 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  4
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.0102788 seconds
+
+Average compression time: 0.00966021 seconds
+
+Average decompression time: 0.000618499 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  5
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.010839 seconds
+
+Average compression time: 0.0102201 seconds
+
+Average decompression time: 0.000618865 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  6
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.0102587 seconds
+
+Average compression time: 0.00964338 seconds
+
+Average decompression time: 0.000615198 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  7
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.0117789 seconds
+
+Average compression time: 0.0111563 seconds
+
+Average decompression time: 0.000622468 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  8
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.0113583 seconds
+
+Average compression time: 0.0107389 seconds
+
+Average decompression time: 0.000619244 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  9
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.0102576 seconds
+
+Average compression time: 0.00963734 seconds
+
+Average decompression time: 0.000620145 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+26.25 MB  10
+Dimensions: 192,40,28,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 27525120
+
+Average iteration time: 0.010829 seconds
+
+Average compression time: 0.0102094 seconds
+
+Average decompression time: 0.000619475 seconds
+Compressed data size is: 27525215
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  1
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.0105693 seconds
+
+Average compression time: 0.00993128 seconds
+
+Average decompression time: 0.000637899 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  2
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.0105757 seconds
+
+Average compression time: 0.00993332 seconds
+
+Average decompression time: 0.000642285 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  3
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.012178 seconds
+
+Average compression time: 0.011541 seconds
+
+Average decompression time: 0.000636946 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  4
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.0117552 seconds
+
+Average compression time: 0.0111192 seconds
+
+Average decompression time: 0.000635908 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  5
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.0113509 seconds
+
+Average compression time: 0.0107097 seconds
+
+Average decompression time: 0.000641009 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  6
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.0117021 seconds
+
+Average compression time: 0.0110635 seconds
+
+Average decompression time: 0.000638468 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  7
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.0105586 seconds
+
+Average compression time: 0.00992401 seconds
+
+Average decompression time: 0.000634445 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  8
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.0123676 seconds
+
+Average compression time: 0.0117249 seconds
+
+Average decompression time: 0.000642573 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  9
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.010862 seconds
+
+Average compression time: 0.0102255 seconds
+
+Average decompression time: 0.000636397 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+30 MB  10
+Dimensions: 192,40,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 31457280
+
+Average iteration time: 0.0114838 seconds
+
+Average compression time: 0.0108428 seconds
+
+Average decompression time: 0.00064094 seconds
+Compressed data size is: 31457375
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  1
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0124138 seconds
+
+Average compression time: 0.0117612 seconds
+
+Average decompression time: 0.000652482 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  2
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0116284 seconds
+
+Average compression time: 0.010976 seconds
+
+Average decompression time: 0.000652306 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  3
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0126702 seconds
+
+Average compression time: 0.012014 seconds
+
+Average decompression time: 0.000656075 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  4
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0107938 seconds
+
+Average compression time: 0.0101411 seconds
+
+Average decompression time: 0.00065259 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  5
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.011828 seconds
+
+Average compression time: 0.0111722 seconds
+
+Average decompression time: 0.000655669 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  6
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0126367 seconds
+
+Average compression time: 0.011979 seconds
+
+Average decompression time: 0.000657525 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  7
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0107882 seconds
+
+Average compression time: 0.0101377 seconds
+
+Average decompression time: 0.000650435 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  8
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0137892 seconds
+
+Average compression time: 0.0131234 seconds
+
+Average decompression time: 0.000665633 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  9
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0108093 seconds
+
+Average compression time: 0.0101541 seconds
+
+Average decompression time: 0.00065506 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+33 MB  10
+Dimensions: 192,44,32,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 34603008
+
+Average iteration time: 0.0124925 seconds
+
+Average compression time: 0.0118322 seconds
+
+Average decompression time: 0.00066015 seconds
+Compressed data size is: 34603103
+Compression ratio: 0.999997
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  1
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0119961 seconds
+
+Average compression time: 0.0113204 seconds
+
+Average decompression time: 0.000675498 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  2
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0120444 seconds
+
+Average compression time: 0.0113685 seconds
+
+Average decompression time: 0.000675692 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  3
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0111114 seconds
+
+Average compression time: 0.0104321 seconds
+
+Average decompression time: 0.000679183 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  4
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0116108 seconds
+
+Average compression time: 0.0109404 seconds
+
+Average decompression time: 0.000670274 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  5
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0111251 seconds
+
+Average compression time: 0.0104506 seconds
+
+Average decompression time: 0.000674364 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  6
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0119055 seconds
+
+Average compression time: 0.0112316 seconds
+
+Average decompression time: 0.000673734 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  7
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0124772 seconds
+
+Average compression time: 0.0117896 seconds
+
+Average decompression time: 0.000687469 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  8
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0111402 seconds
+
+Average compression time: 0.0104635 seconds
+
+Average decompression time: 0.000676524 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  9
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0131856 seconds
+
+Average compression time: 0.0125074 seconds
+
+Average decompression time: 0.000678044 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+37.125 MB  10
+Dimensions: 192,44,36,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 38928384
+
+Average iteration time: 0.0110587 seconds
+
+Average compression time: 0.0103868 seconds
+
+Average decompression time: 0.000671781 seconds
+Compressed data size is: 38928479
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  1
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.0125822 seconds
+
+Average compression time: 0.0118904 seconds
+
+Average decompression time: 0.00069172 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  2
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.012881 seconds
+
+Average compression time: 0.0121712 seconds
+
+Average decompression time: 0.000709679 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  3
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.013351 seconds
+
+Average compression time: 0.0126504 seconds
+
+Average decompression time: 0.000700526 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  4
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.0114708 seconds
+
+Average compression time: 0.0107769 seconds
+
+Average decompression time: 0.000693743 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  5
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.0120743 seconds
+
+Average compression time: 0.011377 seconds
+
+Average decompression time: 0.000697224 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  6
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.0122774 seconds
+
+Average compression time: 0.0115859 seconds
+
+Average decompression time: 0.000691316 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  7
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.012617 seconds
+
+Average compression time: 0.0119202 seconds
+
+Average decompression time: 0.000696692 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  8
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.0114452 seconds
+
+Average compression time: 0.0107551 seconds
+
+Average decompression time: 0.000689974 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  9
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.0125625 seconds
+
+Average compression time: 0.0118678 seconds
+
+Average decompression time: 0.00069458 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+41.25 MB  10
+Dimensions: 192,44,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 43253760
+
+Average iteration time: 0.0114867 seconds
+
+Average compression time: 0.0107912 seconds
+
+Average decompression time: 0.000695385 seconds
+Compressed data size is: 43253855
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  1
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0128486 seconds
+
+Average compression time: 0.0121334 seconds
+
+Average decompression time: 0.000715108 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  2
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0117307 seconds
+
+Average compression time: 0.0110165 seconds
+
+Average decompression time: 0.000714129 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  3
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0133866 seconds
+
+Average compression time: 0.0126715 seconds
+
+Average decompression time: 0.000714991 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  4
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0117272 seconds
+
+Average compression time: 0.0110127 seconds
+
+Average decompression time: 0.000714367 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  5
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0116824 seconds
+
+Average compression time: 0.0109687 seconds
+
+Average decompression time: 0.000713655 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  6
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0117469 seconds
+
+Average compression time: 0.0110287 seconds
+
+Average decompression time: 0.000718109 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  7
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.012954 seconds
+
+Average compression time: 0.0122409 seconds
+
+Average decompression time: 0.000712998 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  8
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0136638 seconds
+
+Average compression time: 0.0129474 seconds
+
+Average decompression time: 0.000716261 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  9
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0129139 seconds
+
+Average compression time: 0.0122018 seconds
+
+Average decompression time: 0.000712055 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+45 MB  10
+Dimensions: 192,48,40,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 47185920
+
+Average iteration time: 0.0117226 seconds
+
+Average compression time: 0.0110097 seconds
+
+Average decompression time: 0.000712747 seconds
+Compressed data size is: 47186015
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  1
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0120006 seconds
+
+Average compression time: 0.0112643 seconds
+
+Average decompression time: 0.000736191 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  2
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0120259 seconds
+
+Average compression time: 0.0112889 seconds
+
+Average decompression time: 0.000736805 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  3
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0142765 seconds
+
+Average compression time: 0.0135357 seconds
+
+Average decompression time: 0.000740685 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  4
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0120276 seconds
+
+Average compression time: 0.0112909 seconds
+
+Average decompression time: 0.000736664 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  5
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0136237 seconds
+
+Average compression time: 0.0128869 seconds
+
+Average decompression time: 0.000736648 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  6
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0120081 seconds
+
+Average compression time: 0.0112698 seconds
+
+Average decompression time: 0.000738097 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  7
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0127023 seconds
+
+Average compression time: 0.0119471 seconds
+
+Average decompression time: 0.000755004 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  8
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0131217 seconds
+
+Average compression time: 0.0123892 seconds
+
+Average decompression time: 0.000732385 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  9
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0135846 seconds
+
+Average compression time: 0.0128411 seconds
+
+Average decompression time: 0.000743329 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+49.5 MB  10
+Dimensions: 192,48,44,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 51904512
+
+Average iteration time: 0.0131463 seconds
+
+Average compression time: 0.0124093 seconds
+
+Average decompression time: 0.000736879 seconds
+Compressed data size is: 51904607
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  1
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.01488 seconds
+
+Average compression time: 0.0141172 seconds
+
+Average decompression time: 0.000762632 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  2
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.0122769 seconds
+
+Average compression time: 0.0115208 seconds
+
+Average decompression time: 0.000755904 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  3
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.0122695 seconds
+
+Average compression time: 0.0115123 seconds
+
+Average decompression time: 0.000757148 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  4
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.0122768 seconds
+
+Average compression time: 0.0115216 seconds
+
+Average decompression time: 0.000755066 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  5
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.0134321 seconds
+
+Average compression time: 0.012673 seconds
+
+Average decompression time: 0.000758961 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  6
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.012248 seconds
+
+Average compression time: 0.0114934 seconds
+
+Average decompression time: 0.000754496 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  7
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.0130747 seconds
+
+Average compression time: 0.0123126 seconds
+
+Average decompression time: 0.000762018 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  8
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.0122669 seconds
+
+Average compression time: 0.0115134 seconds
+
+Average decompression time: 0.000753358 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  9
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.012295 seconds
+
+Average compression time: 0.0115374 seconds
+
+Average decompression time: 0.0007574 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+54 MB  10
+Dimensions: 192,48,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 56623104
+
+Average iteration time: 0.0122692 seconds
+
+Average compression time: 0.0115159 seconds
+
+Average decompression time: 0.000753144 seconds
+Compressed data size is: 56623199
+Compression ratio: 0.999998
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  1
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0127028 seconds
+
+Average compression time: 0.0119034 seconds
+
+Average decompression time: 0.000799257 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  2
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0142338 seconds
+
+Average compression time: 0.0134251 seconds
+
+Average decompression time: 0.000808501 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  3
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0127391 seconds
+
+Average compression time: 0.0119371 seconds
+
+Average decompression time: 0.000801872 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  4
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0134982 seconds
+
+Average compression time: 0.0126971 seconds
+
+Average decompression time: 0.000800921 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  5
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0127122 seconds
+
+Average compression time: 0.011907 seconds
+
+Average decompression time: 0.000805068 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  6
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0127205 seconds
+
+Average compression time: 0.0119165 seconds
+
+Average decompression time: 0.000803863 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  7
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0135182 seconds
+
+Average compression time: 0.0127139 seconds
+
+Average decompression time: 0.000804139 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  8
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0127182 seconds
+
+Average compression time: 0.0119186 seconds
+
+Average decompression time: 0.000799401 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  9
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0151032 seconds
+
+Average compression time: 0.0142984 seconds
+
+Average decompression time: 0.000804717 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+63 MB  10
+Dimensions: 192,56,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 66060288
+
+Average iteration time: 0.0127055 seconds
+
+Average compression time: 0.0119035 seconds
+
+Average decompression time: 0.000801808 seconds
+Compressed data size is: 66060383
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  1
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.0163537 seconds
+
+Average compression time: 0.0153256 seconds
+
+Average decompression time: 0.00102799 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  2
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.016609 seconds
+
+Average compression time: 0.0155759 seconds
+
+Average decompression time: 0.00103299 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  3
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.0149152 seconds
+
+Average compression time: 0.0138847 seconds
+
+Average decompression time: 0.00103044 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  4
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.0149099 seconds
+
+Average compression time: 0.0138803 seconds
+
+Average decompression time: 0.00102947 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  5
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.0159497 seconds
+
+Average compression time: 0.0149249 seconds
+
+Average decompression time: 0.00102471 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  6
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.0149011 seconds
+
+Average compression time: 0.0138765 seconds
+
+Average decompression time: 0.00102443 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  7
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.0156113 seconds
+
+Average compression time: 0.0145837 seconds
+
+Average decompression time: 0.00102743 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  8
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.0158898 seconds
+
+Average compression time: 0.0148626 seconds
+
+Average decompression time: 0.00102705 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  9
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.015624 seconds
+
+Average compression time: 0.0145963 seconds
+
+Average decompression time: 0.00102758 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+108 MB  10
+Dimensions: 192,96,48,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 113246208
+
+Average iteration time: 0.0154879 seconds
+
+Average compression time: 0.0144387 seconds
+
+Average decompression time: 0.00104909 seconds
+Compressed data size is: 113246303
+Compression ratio: 0.999999
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  1
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0215621 seconds
+
+Average compression time: 0.0199927 seconds
+
+Average decompression time: 0.00156928 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  2
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0219358 seconds
+
+Average compression time: 0.0203726 seconds
+
+Average decompression time: 0.00156307 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  3
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.021285 seconds
+
+Average compression time: 0.0197176 seconds
+
+Average decompression time: 0.00156731 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  4
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0201064 seconds
+
+Average compression time: 0.0185406 seconds
+
+Average decompression time: 0.00156572 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  5
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0213288 seconds
+
+Average compression time: 0.0197674 seconds
+
+Average decompression time: 0.00156132 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  6
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0200851 seconds
+
+Average compression time: 0.0185217 seconds
+
+Average decompression time: 0.00156322 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  7
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0216309 seconds
+
+Average compression time: 0.0200678 seconds
+
+Average decompression time: 0.00156297 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  8
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0200842 seconds
+
+Average compression time: 0.0185254 seconds
+
+Average decompression time: 0.0015586 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  9
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0223243 seconds
+
+Average compression time: 0.0207602 seconds
+
+Average decompression time: 0.00156402 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+216 MB  10
+Dimensions: 192,96,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 226492416
+
+Average iteration time: 0.0208976 seconds
+
+Average compression time: 0.0193379 seconds
+
+Average decompression time: 0.00155955 seconds
+Compressed data size is: 226492511
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 1
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0289495 seconds
+
+Average compression time: 0.026388 seconds
+
+Average decompression time: 0.00256138 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 2
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0300483 seconds
+
+Average compression time: 0.027483 seconds
+
+Average decompression time: 0.00256518 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 3
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0296571 seconds
+
+Average compression time: 0.0270958 seconds
+
+Average decompression time: 0.00256108 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 4
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0297002 seconds
+
+Average compression time: 0.0271363 seconds
+
+Average decompression time: 0.00256377 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 5
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0300171 seconds
+
+Average compression time: 0.0274523 seconds
+
+Average decompression time: 0.00256472 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 6
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0313373 seconds
+
+Average compression time: 0.0287719 seconds
+
+Average decompression time: 0.00256527 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 7
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.028994 seconds
+
+Average compression time: 0.0264309 seconds
+
+Average decompression time: 0.00256299 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 8
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0289235 seconds
+
+Average compression time: 0.026361 seconds
+
+Average decompression time: 0.00256234 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 9
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0309277 seconds
+
+Average compression time: 0.0283653 seconds
+
+Average decompression time: 0.00256225 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+432 MB 10
+Dimensions: 192,192,96,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 452984832
+
+Average iteration time: 0.0290619 seconds
+
+Average compression time: 0.0264968 seconds
+
+Average decompression time: 0.00256502 seconds
+Compressed data size is: 452984928
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 1
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0318693 seconds
+
+Average compression time: 0.0290827 seconds
+
+Average decompression time: 0.00278645 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 2
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0322509 seconds
+
+Average compression time: 0.0295115 seconds
+
+Average decompression time: 0.00273924 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 3
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0309285 seconds
+
+Average compression time: 0.0281943 seconds
+
+Average decompression time: 0.00273401 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 4
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0304782 seconds
+
+Average compression time: 0.0277455 seconds
+
+Average decompression time: 0.00273253 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 5
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0304718 seconds
+
+Average compression time: 0.0277382 seconds
+
+Average decompression time: 0.00273344 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 6
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0319858 seconds
+
+Average compression time: 0.0292373 seconds
+
+Average decompression time: 0.00274842 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 7
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0306349 seconds
+
+Average compression time: 0.0279027 seconds
+
+Average decompression time: 0.002732 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 8
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0311389 seconds
+
+Average compression time: 0.0284039 seconds
+
+Average decompression time: 0.00273491 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 9
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0304589 seconds
+
+Average compression time: 0.0277278 seconds
+
+Average decompression time: 0.00273096 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+468 MB 10
+Dimensions: 192,192,104,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 490733568
+
+Average iteration time: 0.0309341 seconds
+
+Average compression time: 0.0281993 seconds
+
+Average decompression time: 0.00273466 seconds
+Compressed data size is: 490733664
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 1
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.033843 seconds
+
+Average compression time: 0.0307612 seconds
+
+Average decompression time: 0.00308175 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 2
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0345876 seconds
+
+Average compression time: 0.0314925 seconds
+
+Average decompression time: 0.00309499 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 3
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0340828 seconds
+
+Average compression time: 0.0309995 seconds
+
+Average decompression time: 0.00308314 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 4
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0333621 seconds
+
+Average compression time: 0.0302837 seconds
+
+Average decompression time: 0.00307828 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 5
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0338498 seconds
+
+Average compression time: 0.0307656 seconds
+
+Average decompression time: 0.00308411 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 6
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0343924 seconds
+
+Average compression time: 0.0313082 seconds
+
+Average decompression time: 0.00308402 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 7
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0353636 seconds
+
+Average compression time: 0.032283 seconds
+
+Average decompression time: 0.00308041 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 8
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0333987 seconds
+
+Average compression time: 0.0303204 seconds
+
+Average decompression time: 0.00307813 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 9
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0345964 seconds
+
+Average compression time: 0.0315077 seconds
+
+Average decompression time: 0.00308856 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+540 MB 10
+Dimensions: 192,192,120,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 566231040
+
+Average iteration time: 0.0334304 seconds
+
+Average compression time: 0.0303481 seconds
+
+Average decompression time: 0.00308223 seconds
+Compressed data size is: 566231136
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 1
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0407592 seconds
+
+Average compression time: 0.0369624 seconds
+
+Average decompression time: 0.00379666 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 2
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0398084 seconds
+
+Average compression time: 0.0360168 seconds
+
+Average decompression time: 0.00379151 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 3
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0407927 seconds
+
+Average compression time: 0.0370184 seconds
+
+Average decompression time: 0.00377411 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 4
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0395513 seconds
+
+Average compression time: 0.0357783 seconds
+
+Average decompression time: 0.00377288 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 5
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0400825 seconds
+
+Average compression time: 0.036299 seconds
+
+Average decompression time: 0.00378343 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 6
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0402241 seconds
+
+Average compression time: 0.0364531 seconds
+
+Average decompression time: 0.00377091 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 7
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0414285 seconds
+
+Average compression time: 0.0376236 seconds
+
+Average decompression time: 0.00380484 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 8
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0395236 seconds
+
+Average compression time: 0.0357475 seconds
+
+Average decompression time: 0.00377607 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 9
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0400996 seconds
+
+Average compression time: 0.0363267 seconds
+
+Average decompression time: 0.00377279 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+700 MB 10
+Dimensions: 192,192,152,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 717225984
+
+Average iteration time: 0.0400379 seconds
+
+Average compression time: 0.0362643 seconds
+
+Average decompression time: 0.00377349 seconds
+Compressed data size is: 717226080
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 1
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.048873 seconds
+
+Average compression time: 0.0440593 seconds
+
+Average decompression time: 0.00481362 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 2
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0488584 seconds
+
+Average compression time: 0.0440496 seconds
+
+Average decompression time: 0.00480872 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 3
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0488487 seconds
+
+Average compression time: 0.0440424 seconds
+
+Average decompression time: 0.00480617 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 4
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0500297 seconds
+
+Average compression time: 0.0452167 seconds
+
+Average decompression time: 0.00481294 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 5
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0508371 seconds
+
+Average compression time: 0.0460252 seconds
+
+Average decompression time: 0.00481174 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 6
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0496333 seconds
+
+Average compression time: 0.0448177 seconds
+
+Average decompression time: 0.0048155 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 7
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0501403 seconds
+
+Average compression time: 0.0453328 seconds
+
+Average decompression time: 0.00480738 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 8
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0502455 seconds
+
+Average compression time: 0.0454326 seconds
+
+Average decompression time: 0.00481276 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 9
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0498855 seconds
+
+Average compression time: 0.0450703 seconds
+
+Average decompression time: 0.00481508 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+950 MB 10
+Dimensions: 192,192,200,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 943718400
+
+Average iteration time: 0.0498263 seconds
+
+Average compression time: 0.0449962 seconds
+
+Average decompression time: 0.00482994 seconds
+Compressed data size is: 943718496
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 1
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0598694 seconds
+
+Average compression time: 0.0538478 seconds
+
+Average decompression time: 0.00602145 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 2
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0604176 seconds
+
+Average compression time: 0.0543947 seconds
+
+Average decompression time: 0.00602276 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 3
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0600291 seconds
+
+Average compression time: 0.0540017 seconds
+
+Average decompression time: 0.00602728 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 4
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0601868 seconds
+
+Average compression time: 0.0541699 seconds
+
+Average decompression time: 0.00601673 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 5
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0602929 seconds
+
+Average compression time: 0.0542696 seconds
+
+Average decompression time: 0.00602308 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 6
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0604391 seconds
+
+Average compression time: 0.0544004 seconds
+
+Average decompression time: 0.00603859 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 7
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0601739 seconds
+
+Average compression time: 0.0541517 seconds
+
+Average decompression time: 0.00602214 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 8
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0601163 seconds
+
+Average compression time: 0.0540945 seconds
+
+Average decompression time: 0.00602167 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 9
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.060495 seconds
+
+Average compression time: 0.0544749 seconds
+
+Average decompression time: 0.00601991 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1200 MB 10
+Dimensions: 192,192,256,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1207959552
+
+Average iteration time: 0.0606439 seconds
+
+Average compression time: 0.0546252 seconds
+
+Average decompression time: 0.00601854 seconds
+Compressed data size is: 1207959648
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 1
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0731791 seconds
+
+Average compression time: 0.0657654 seconds
+
+Average decompression time: 0.00741348 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 2
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0727546 seconds
+
+Average compression time: 0.0653548 seconds
+
+Average decompression time: 0.00739974 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 3
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0724756 seconds
+
+Average compression time: 0.0650734 seconds
+
+Average decompression time: 0.00740208 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 4
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0728018 seconds
+
+Average compression time: 0.0654022 seconds
+
+Average decompression time: 0.00739942 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 5
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0728064 seconds
+
+Average compression time: 0.065406 seconds
+
+Average decompression time: 0.00740028 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 6
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.072976 seconds
+
+Average compression time: 0.0655746 seconds
+
+Average decompression time: 0.00740134 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 7
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0727445 seconds
+
+Average compression time: 0.0653441 seconds
+
+Average decompression time: 0.00740025 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 8
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0728903 seconds
+
+Average compression time: 0.0654725 seconds
+
+Average decompression time: 0.00741768 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 9
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0724715 seconds
+
+Average compression time: 0.0650562 seconds
+
+Average decompression time: 0.00741519 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1500 MB 10
+Dimensions: 192,192,320,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1509949440
+
+Average iteration time: 0.0724321 seconds
+
+Average compression time: 0.0650321 seconds
+
+Average decompression time: 0.0073998 seconds
+Compressed data size is: 1509949536
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 1
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0858744 seconds
+
+Average compression time: 0.0770687 seconds
+
+Average decompression time: 0.00880562 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 2
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0859451 seconds
+
+Average compression time: 0.0771378 seconds
+
+Average decompression time: 0.00880715 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 3
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0861737 seconds
+
+Average compression time: 0.0773711 seconds
+
+Average decompression time: 0.00880249 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 4
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0861354 seconds
+
+Average compression time: 0.0773478 seconds
+
+Average decompression time: 0.00878755 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 5
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0861795 seconds
+
+Average compression time: 0.0773733 seconds
+
+Average decompression time: 0.00880612 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 6
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0863209 seconds
+
+Average compression time: 0.0775374 seconds
+
+Average decompression time: 0.00878337 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 7
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0862694 seconds
+
+Average compression time: 0.0774658 seconds
+
+Average decompression time: 0.00880343 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 8
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0862426 seconds
+
+Average compression time: 0.0774312 seconds
+
+Average decompression time: 0.00881123 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 9
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0859298 seconds
+
+Average compression time: 0.0771439 seconds
+
+Average decompression time: 0.00878574 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+1800 MB 10
+Dimensions: 192,192,384,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 1811939328
+
+Average iteration time: 0.0866942 seconds
+
+Average compression time: 0.0779026 seconds
+
+Average decompression time: 0.00879143 seconds
+Compressed data size is: 1811939424
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 1
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.100094 seconds
+
+Average compression time: 0.0899238 seconds
+
+Average decompression time: 0.0101699 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 2
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.0998376 seconds
+
+Average compression time: 0.089668 seconds
+
+Average decompression time: 0.0101694 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 3
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.0997553 seconds
+
+Average compression time: 0.0895875 seconds
+
+Average decompression time: 0.0101678 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 4
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.0999206 seconds
+
+Average compression time: 0.0897441 seconds
+
+Average decompression time: 0.0101764 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 5
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.100218 seconds
+
+Average compression time: 0.0900355 seconds
+
+Average decompression time: 0.0101829 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 6
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.100046 seconds
+
+Average compression time: 0.089879 seconds
+
+Average decompression time: 0.0101668 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 7
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.0996298 seconds
+
+Average compression time: 0.0894258 seconds
+
+Average decompression time: 0.0102038 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 8
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.0994516 seconds
+
+Average compression time: 0.0892827 seconds
+
+Average decompression time: 0.0101687 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 9
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.100279 seconds
+
+Average compression time: 0.0900845 seconds
+
+Average decompression time: 0.0101941 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+2000 MB 10
+Dimensions: 192,192,448,2,8,1, eb: 1e-05, num_streams: 1
+Initializing data on host.....
+Initialization complete
+Total amount of bytes in initial array: 2113929216
+
+Average iteration time: 0.0994668 seconds
+
+Average compression time: 0.0892948 seconds
+
+Average decompression time: 0.0101719 seconds
+Compressed data size is: 2113929312
+Compression ratio: 1
+MSE: 0
+L2 Error: 0
+Max Absolute Error: 0
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: djimenez(1910)
+Job name:  MGARD_BENCHMARK_3D_EB_0_00001
+Node list: ravg1087
+Job start: Fri Nov 21 10:08:20 CET 2025
+Job end:   Fri Nov 21 11:04:20 CET 2025
+Work dir:  /u/djimenez/zfp_sandbox/build/bin/compressor_comparison_experiments/runs/20251121_1008/./
+Command:   /raven/u/djimenez/zfp_sandbox/build/bin/compressor_comparison_experiments/runs/20251121_1008/mgard_benchmark_3d_compression_default_stream_eb_0_00001.slurm
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS       MaxRSS       AveRSS    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+22927237      MGARD_BENC      1            36                             00:56:00      0:0
+22927237.0    compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.1    compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.2    compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.3    compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.4    compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.5    compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.6    compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.7    compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.8    compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.9    compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.10   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.11   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.12   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.13   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.14   compressor      1      1     36        1.74M        1.74M   00:00:04      0:0
+22927237.15   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.16   compressor      1      1     36        1.69M        1.69M   00:00:03      0:0
+22927237.17   compressor      1      1     36        1.71M        1.71M   00:00:03      0:0
+22927237.18   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.19   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.20   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.21   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.22   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.23   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.24   compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.25   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.26   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.27   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.28   compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.29   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.30   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.31   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.32   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.33   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.34   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.35   compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.36   compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.37   compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.38   compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.39   compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.40   compressor      1      1     36        1.70M        1.70M   00:00:08      0:0
+22927237.41   compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.42   compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.43   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.44   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.45   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.46   compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.47   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.48   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.49   compressor      1      1     36        1.69M        1.69M   00:00:05      0:0
+22927237.50   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.51   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.52   compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.53   compressor      1      1     36        1.70M        1.70M   00:00:04      0:0
+22927237.54   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.55   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.56   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.57   compressor      1      1     36        1.70M        1.70M   00:00:04      0:0
+22927237.58   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.59   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.60   compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.61   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.62   compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.63   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.64   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.65   compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.66   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.67   compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.68   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.69   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.70   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.71   compressor      1      1     36        1.74M        1.74M   00:00:05      0:0
+22927237.72   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.73   compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.74   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.75   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.76   compressor      1      1     36        1.70M        1.70M   00:00:06      0:0
+22927237.77   compressor      1      1     36        1.69M        1.69M   00:00:04      0:0
+22927237.78   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.79   compressor      1      1     36        1.71M        1.71M   00:00:08      0:0
+22927237.80   compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.81   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.82   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.83   compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.84   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.85   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.86   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.87   compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.88   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.89   compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.90   compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.91   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.92   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.93   compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.94   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.95   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.96   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.97   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.98   compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.99   compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.100  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.101  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.102  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.103  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.104  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.105  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.106  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.107  compressor      1      1     36        1.72M        1.72M   00:00:06      0:0
+22927237.108  compressor      1      1     36        1.70M        1.70M   00:00:06      0:0
+22927237.109  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.110  compressor      1      1     36        1.71M        1.71M   00:00:06      0:0
+22927237.111  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.112  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.113  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.114  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.115  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.116  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.117  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.118  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.119  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.120  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.121  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.122  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.123  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.124  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.125  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.126  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.127  compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.128  compressor      1      1     36        1.73M        1.73M   00:00:04      0:0
+22927237.129  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.130  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.131  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.132  compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.133  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.134  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.135  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.136  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.137  compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.138  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.139  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.140  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.141  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.142  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.143  compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.144  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.145  compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.146  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.147  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.148  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.149  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.150  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.151  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.152  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.153  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.154  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.155  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.156  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.157  compressor      1      1     36        1.70M        1.70M   00:00:04      0:0
+22927237.158  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.159  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.160  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.161  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.162  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.163  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.164  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.165  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.166  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.167  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.168  compressor      1      1     36        1.71M        1.71M   00:00:04      0:0
+22927237.169  compressor      1      1     36        1.73M        1.73M   00:00:06      0:0
+22927237.170  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.171  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.172  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.173  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.174  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.175  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.176  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.177  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.178  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.179  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.180  compressor      1      1     36        1.72M        1.72M   00:00:06      0:0
+22927237.181  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.182  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.183  compressor      1      1     36        1.70M        1.70M   00:00:04      0:0
+22927237.184  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.185  compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.186  compressor      1      1     36        1.72M        1.72M   00:00:06      0:0
+22927237.187  compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.188  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.189  compressor      1      1     36        1.72M        1.72M   00:00:04      0:0
+22927237.190  compressor      1      1     36        1.70M        1.70M   00:00:07      0:0
+22927237.191  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.192  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.193  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.194  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.195  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.196  compressor      1      1     36        1.73M        1.73M   00:00:06      0:0
+22927237.197  compressor      1      1     36        1.73M        1.73M   00:00:05      0:0
+22927237.198  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.199  compressor      1      1     36        1.73M        1.73M   00:00:06      0:0
+22927237.200  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.201  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.202  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.203  compressor      1      1     36        1.71M        1.71M   00:00:06      0:0
+22927237.204  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.205  compressor      1      1     36        1.70M        1.70M   00:00:05      0:0
+22927237.206  compressor      1      1     36        1.72M        1.72M   00:00:08      0:0
+22927237.207  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.208  compressor      1      1     36        1.71M        1.71M   00:00:07      0:0
+22927237.209  compressor      1      1     36        1.71M        1.71M   00:00:05      0:0
+22927237.210  compressor      1      1     36        1.72M        1.72M   00:00:08      0:0
+22927237.211  compressor      1      1     36        1.71M        1.71M   00:00:06      0:0
+22927237.212  compressor      1      1     36        1.72M        1.72M   00:00:06      0:0
+22927237.213  compressor      1      1     36        1.73M        1.73M   00:00:07      0:0
+22927237.214  compressor      1      1     36        1.72M        1.72M   00:00:05      0:0
+22927237.215  compressor      1      1     36        1.71M        1.71M   00:00:07      0:0
+22927237.216  compressor      1      1     36        1.71M        1.71M   00:00:06      0:0
+22927237.217  compressor      1      1     36        1.70M        1.70M   00:00:06      0:0
+22927237.218  compressor      1      1     36        1.71M        1.71M   00:00:06      0:0
+22927237.219  compressor      1      1     36        1.70M        1.70M   00:00:06      0:0
+22927237.220  compressor      1      1     36        1.71M        1.71M   00:00:09      0:0
+22927237.221  compressor      1      1     36        1.71M        1.71M   00:00:08      0:0
+22927237.222  compressor      1      1     36        1.71M        1.71M   00:00:08      0:0
+22927237.223  compressor      1      1     36        1.71M        1.71M   00:00:09      0:0
+22927237.224  compressor      1      1     36        1.72M        1.72M   00:00:09      0:0
+22927237.225  compressor      1      1     36        1.71M        1.71M   00:00:08      0:0
+22927237.226  compressor      1      1     36        1.71M        1.71M   00:00:09      0:0
+22927237.227  compressor      1      1     36        1.70M        1.70M   00:00:08      0:0
+22927237.228  compressor      1      1     36        1.73M        1.73M   00:00:08      0:0
+22927237.229  compressor      1      1     36        1.71M        1.71M   00:00:10      0:0
+22927237.230  compressor      1      1     36        1.71M        1.71M   00:00:13      0:0
+22927237.231  compressor      1      1     36        1.72M        1.72M   00:00:12      0:0
+22927237.232  compressor      1      1     36        1.71M        1.71M   00:00:13      0:0
+22927237.233  compressor      1      1     36        1.71M        1.71M   00:00:12      0:0
+22927237.234  compressor      1      1     36        1.73M        1.73M   00:00:13      0:0
+22927237.235  compressor      1      1     36        1.72M        1.72M   00:00:12      0:0
+22927237.236  compressor      1      1     36        1.70M        1.70M   00:00:13      0:0
+22927237.237  compressor      1      1     36        1.71M        1.71M   00:00:12      0:0
+22927237.238  compressor      1      1     36        1.70M        1.70M   00:00:13      0:0
+22927237.239  compressor      1      1     36        1.71M        1.71M   00:00:13      0:0
+22927237.240  compressor      1      1     36        1.70M        1.70M   00:00:13      0:0
+22927237.241  compressor      1      1     36        1.71M        1.71M   00:00:15      0:0
+22927237.242  compressor      1      1     36        1.69M        1.69M   00:00:14      0:0
+22927237.243  compressor      1      1     36        1.71M        1.71M   00:00:13      0:0
+22927237.244  compressor      1      1     36        1.72M        1.72M   00:00:13      0:0
+22927237.245  compressor      1      1     36        1.71M        1.71M   00:00:13      0:0
+22927237.246  compressor      1      1     36        1.71M        1.71M   00:00:14      0:0
+22927237.247  compressor      1      1     36        1.71M        1.71M   00:00:13      0:0
+22927237.248  compressor      1      1     36        1.71M        1.71M   00:00:13      0:0
+22927237.249  compressor      1      1     36        1.73M        1.73M   00:00:13      0:0
+22927237.250  compressor      1      1     36        1.72M        1.72M   00:00:15      0:0
+22927237.251  compressor      1      1     36        1.72M        1.72M   00:00:19      0:0
+22927237.252  compressor      1      1     36        1.71M        1.71M   00:00:15      0:0
+22927237.253  compressor      1      1     36        1.71M        1.71M   00:00:14      0:0
+22927237.254  compressor      1      1     36        1.70M        1.70M   00:00:14      0:0
+22927237.255  compressor      1      1     36        1.71M        1.71M   00:00:15      0:0
+22927237.256  compressor      1      1     36        1.71M        1.71M   00:00:14      0:0
+22927237.257  compressor      1      1     36        1.72M        1.72M   00:00:15      0:0
+22927237.258  compressor      1      1     36        1.71M        1.71M   00:00:15      0:0
+22927237.259  compressor      1      1     36        1.70M        1.70M   00:00:14      0:0
+22927237.260  compressor      1      1     36        1.70M        1.70M   00:00:18      0:0
+22927237.261  compressor      1      1     36        1.71M        1.71M   00:00:18      0:0
+22927237.262  compressor      1      1     36        1.71M        1.71M   00:00:18      0:0
+22927237.263  compressor      1      1     36        1.71M        1.71M   00:00:17      0:0
+22927237.264  compressor      1      1     36        1.71M        1.71M   00:00:18      0:0
+22927237.265  compressor      1      1     36        1.72M        1.72M   00:00:17      0:0
+22927237.266  compressor      1      1     36        1.71M        1.71M   00:00:17      0:0
+22927237.267  compressor      1      1     36        1.72M        1.72M   00:00:17      0:0
+22927237.268  compressor      1      1     36        1.71M        1.71M   00:00:18      0:0
+22927237.269  compressor      1      1     36        1.71M        1.71M   00:00:18      0:0
+22927237.270  compressor      1      1     36        1.73M        1.73M   00:00:22      0:0
+22927237.271  compressor      1      1     36        1.71M        1.71M   00:00:22      0:0
+22927237.272  compressor      1      1     36        1.71M        1.71M   00:00:21      0:0
+22927237.273  compressor      1      1     36        1.72M        1.72M   00:00:22      0:0
+22927237.274  compressor      1      1     36        1.72M        1.72M   00:00:22      0:0
+22927237.275  compressor      1      1     36        1.71M        1.71M   00:00:21      0:0
+22927237.276  compressor      1      1     36        1.71M        1.71M   00:00:22      0:0
+22927237.277  compressor      1      1     36        1.71M        1.71M   00:00:21      0:0
+22927237.278  compressor      1      1     36        1.71M        1.71M   00:00:23      0:0
+22927237.279  compressor      1      1     36        1.71M        1.71M   00:00:22      0:0
+22927237.280  compressor      1      1     36        1.73M        1.73M   00:00:26      0:0
+22927237.281  compressor      1      1     36        1.73M        1.73M   00:00:26      0:0
+22927237.282  compressor      1      1     36        1.75M        1.75M   00:00:26      0:0
+22927237.283  compressor      1      1     36        1.74M        1.74M   00:00:26      0:0
+22927237.284  compressor      1      1     36        1.73M        1.73M   00:00:27      0:0
+22927237.285  compressor      1      1     36        1.73M        1.73M   00:00:27      0:0
+22927237.286  compressor      1      1     36        1.74M        1.74M   00:00:26      0:0
+22927237.287  compressor      1      1     36        1.73M        1.73M   00:00:26      0:0
+22927237.288  compressor      1      1     36        1.75M        1.75M   00:00:26      0:0
+22927237.289  compressor      1      1     36        1.73M        1.73M   00:00:27      0:0
+22927237.290  compressor      1      1     36     1675.59M     1675.59M   00:00:31      0:0
+22927237.291  compressor      1      1     36     1672.78M     1672.78M   00:00:32      0:0
+22927237.292  compressor      1      1     36     1672.24M     1672.24M   00:00:31      0:0
+22927237.293  compressor      1      1     36     1670.53M     1670.53M   00:00:33      0:0
+22927237.294  compressor      1      1     36     1673.55M     1673.55M   00:00:31      0:0
+22927237.295  compressor      1      1     36     1677.77M     1677.77M   00:00:32      0:0
+22927237.296  compressor      1      1     36     1674.90M     1674.90M   00:00:32      0:0
+22927237.297  compressor      1      1     36     1672.77M     1672.77M   00:00:32      0:0
+22927237.298  compressor      1      1     36     1677.63M     1677.63M   00:00:31      0:0
+22927237.299  compressor      1      1     36     1674.94M     1674.94M   00:00:32      0:0
+22927237.300  compressor      1      1     36     1963.11M     1963.11M   00:00:38      0:0
+22927237.301  compressor      1      1     36     1963.00M     1963.00M   00:00:37      0:0
+22927237.302  compressor      1      1     36     1964.05M     1964.05M   00:00:38      0:0
+22927237.303  compressor      1      1     36     1960.49M     1960.49M   00:00:39      0:0
+22927237.304  compressor      1      1     36     1961.13M     1961.13M   00:00:37      0:0
+22927237.305  compressor      1      1     36     1964.63M     1964.63M   00:00:38      0:0
+22927237.306  compressor      1      1     36     1965.36M     1965.36M   00:00:37      0:0
+22927237.307  compressor      1      1     36     1960.99M     1960.99M   00:00:37      0:0
+22927237.308  compressor      1      1     36     1962.64M     1962.64M   00:00:37      0:0
+22927237.309  compressor      1      1     36     1960.75M     1960.75M   00:00:38      0:0
+22927237.310  compressor      1      1     36     2247.67M     2247.67M   00:00:43      0:0
+22927237.311  compressor      1      1     36     2248.53M     2248.53M   00:00:45      0:0
+22927237.312  compressor      1      1     36     2256.22M     2256.22M   00:00:43      0:0
+22927237.313  compressor      1      1     36     2249.43M     2249.43M   00:00:44      0:0
+22927237.314  compressor      1      1     36     2248.84M     2248.84M   00:00:43      0:0
+22927237.315  compressor      1      1     36     2254.95M     2254.95M   00:00:43      0:0
+22927237.316  compressor      1      1     36     2245.36M     2245.36M   00:00:44      0:0
+22927237.317  compressor      1      1     36     2254.35M     2254.35M   00:00:43      0:0
+22927237.318  compressor      1      1     36     2245.17M     2245.17M   00:00:44      0:0
+22927237.319  compressor      1      1     36     2247.20M     2247.20M   00:00:45      0:0
+  
+Maximum memory per node: 2.365816 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 1.4 %
+  

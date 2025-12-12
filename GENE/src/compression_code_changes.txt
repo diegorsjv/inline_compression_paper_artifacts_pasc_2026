@@ -1,0 +1,657 @@
+ src/boundary.F90             |  24 ++-
+ src/boundary_exchange_vw.F90 |  15 +-
+ src/files.mk                 |   3 +-
+ src/gpu_exchange.cxx         | 464 +++++++++++++++++++++++++++++++++++++++----
+ 4 files changed, 464 insertions(+), 42 deletions(-)
+
+diff --git a/src/boundary.F90 b/src/boundary.F90
+index 1a4d698ef..99bf2943c 100644
+--- a/src/boundary.F90
++++ b/src/boundary.F90
+@@ -34,6 +34,8 @@ Module boundaries
+   USE_MPI
+   use operations_m, only: operations_o
+   use par_in, only: perf_vec,x_local,rad_bc_type
++  use compression_buffers, only: allocate_compression_buffers, deallocate_compression_buffers, &
++      initialize_cuda_streams, destroy_cuda_streams
+   Implicit None
+ 
+   PUBLIC :: exchange_x, exchange_z, exchange_z_nopb, exchange_v, exchange_mu,&
+@@ -220,7 +222,10 @@ Contains
+   !************ Exchange in velocity direction ******!
+   !**************************************************!
+   SUBROUTINE initialize_exchange_v
+-
++#ifdef HAVE_GPU_AWARE_MPI
++   ! MEMORY ALLOCATIONS GPU HERE!
++   complex, dimension(gdisc%li1:gdisc%li2,gdisc%lj1:gdisc%lj2,lbz:ubz,lbv:ubv,lbw:ubw,ln1:ln2) :: data_shape
++#endif
+     if (init_status_exchange_v==1) return
+ 
+     CALL initialize_boundary_exchange_vw(mpi_comm_v, mpi_comm_w)
+@@ -234,6 +239,18 @@ Contains
+        CALL set_mpi_type(bdesc_v_2)
+     END IF
+ 
++#ifdef HAVE_GPU_AWARE_MPI
++    ! MEMORY ALLOCATIONS GPU HERE!
++   if (perf_vec(8).eq.1) then
++      !print *, "[GPU_BUF_ALLOC] perf_vec(8) eq 1"
++      call allocate_compression_buffers(shape(data_shape), bdesc_v_1%lower, bdesc_v_1%upper)
++   else
++      !print *, "[GPU_BUF_ALLOC] perf_vec(8) neq 1"
++      call allocate_compression_buffers(shape(data_shape), bdesc_v_2%lower, bdesc_v_2%upper)
++   endif
++    call initialize_cuda_streams()
++#endif
++
+     init_status_exchange_v = 1
+ 
+   END SUBROUTINE initialize_exchange_v
+@@ -243,15 +260,20 @@ Contains
+     CALL finalize_type(bdesc_v_1)
+     CALL finalize_type(bdesc_v_2)
+     call finalize_boundary_exchange_vw
++    call deallocate_compression_buffers()
++    call destroy_cuda_streams()
+     init_status_exchange_v = 0
+   END SUBROUTINE finalize_exchange_v
+ 
+   SUBROUTINE bnd_exchange_v(p_f)
+     complex, dimension(gdisc%li1:gdisc%li2,gdisc%lj1:gdisc%lj2,lbz:ubz,lbv:ubv,lbw:ubw,ln1:ln2),intent(inout):: p_f
+ 
++
+     if (perf_vec(8).eq.1) then
++       !print *, "[bnd_exchange_v] perf_vec(8) eq 1"
+        CALL exchange_v(bdesc_v_1,p_f)
+     else
++       !print *, "[bnd_exchange_v] perf_vec(8) neq 1"
+        CALL exchange_v(bdesc_v_2,p_f)
+     endif
+   END SUBROUTINE bnd_exchange_v
+diff --git a/src/boundary_exchange_vw.F90 b/src/boundary_exchange_vw.F90
+index 3d6234769..769af8856 100644
+--- a/src/boundary_exchange_vw.F90
++++ b/src/boundary_exchange_vw.F90
+@@ -3,6 +3,7 @@ MODULE boundary_exchange_vw
+   use BoundaryDescriptionModule
+   use boundary_exchange_general
+   use communications, only: comm_cart
++  use compression_buffers, only: initialize_nccl_comm, destroy_nccl_comm
+   USE_MPI
+   implicit none
+ 
+@@ -51,10 +52,22 @@ CONTAINS
+     CALL mpi_comm_rank(ai_comm_w,my_pew,ierr)
+     CALL mpi_comm_size(ai_comm_v,n_procs_v, ierr)
+     CALL mpi_comm_size(ai_comm_w,n_procs_w, ierr)
+-
++#ifdef WITH_GPU
++#ifdef WITH_MPI_F08
++    !PRINT *, "WITH_MPI_F08"
++    CALL initialize_nccl_comm(comm_cart%MPI_VAL,my_pev, 32)
++#else
++    !PRINT *, "WITHOUT_MPI_F08"
++    CALL initialize_nccl_comm(comm_cart,my_pev, 32)
++#endif
++    !CALL initialize_nccl_comm(ai_comm_v%MPI_VAL,my_pev, n_procs_v)
++#endif
+   END SUBROUTINE bevw_initialize_boundary_exchange_vw
+ 
+   SUBROUTINE finalize_boundary_exchange_vw
++#ifdef WITH_GPU
++    CALL destroy_nccl_comm()
++#endif
+   END SUBROUTINE finalize_boundary_exchange_vw
+ 
+   SUBROUTINE exchange_v_4D(bdesc,u)
+diff --git a/src/files.mk b/src/files.mk
+index 2930e5853..b60135b9b 100644
+--- a/src/files.mk
++++ b/src/files.mk
+@@ -375,7 +375,8 @@ ifneq ($(USE_GPU),no)
+ 		gpufft_interface.F90\
+ 		operations_gpu.F90\
+ 		gpu_debug_interface.F90\
+-		gpusolver_interface.F90
++		gpusolver_interface.F90\
++		alloc_compression_buffers.F90
+ 
+  GPUSRC +=	cusparse_wrapper.cxx\
+ 		gpu_blk_bnd_utils_specifier.cxx\
+diff --git a/src/gpu_exchange.cxx b/src/gpu_exchange.cxx
+index cc48f9e78..5fcf14173 100644
+--- a/src/gpu_exchange.cxx
++++ b/src/gpu_exchange.cxx
+@@ -1,15 +1,156 @@
+-
+ #include "gpu_exchange.h"
+ 
+ #include "gpu_gene.h"
+ #include <gtensor/gtensor.h>
+ #include <mpi.h>
++#include "nccl.h"
++#ifdef GTENSOR_DEVICE_CUDA
++#include <nvToolsExt.h>
++#endif
++
++#include <iostream>
++#include <iomanip>
++
++#include <zfp_compression_multi_stream.h>
+ 
+ // last include, so we don't accidentally redef inside vendor headers
+ #include "redef.h"
+ 
+ using namespace gt::placeholders;
+ 
++#ifdef HAVE_GPU_AWARE_MPI
++double compress_rate = 8;
++const int numStreams = 4;
++int partitions = 4;
++cudaStream_t streams[numStreams];
++ncclComm_t nccl_comm;
++ncclComm_t comms[numStreams];
++
++unsigned char *s_compressed_data_p_real, *s_compressed_data_m_real, // Buffers for real part of array
++                *r_compressed_data_p_real, *r_compressed_data_m_real; // s_ (send buffers) r_ (receive buffers)
++unsigned char *s_compressed_data_p_img, *s_compressed_data_m_img, // Buffers for img part of array
++                *r_compressed_data_p_img, *r_compressed_data_m_img; // s_ (send buffers) r_ (receive buffers)
++
++extern "C" void initialize_nccl_comm(int comm_f, int my_rank, int n_procs){
++  ncclUniqueId nccl_id;
++  MPI_Comm comm = MPI_Comm_f2c(comm_f);
++  int rank_id;
++  int comm_size;
++  MPI_Comm_rank(comm, &rank_id);
++  MPI_Comm_size(comm, &comm_size);
++  if(my_rank == 0){
++    ncclGetUniqueId(&nccl_id);
++  }
++  MPI_Bcast(&nccl_id, sizeof(nccl_id), MPI_BYTE, 0, comm);
++  ncclCommInitRank(&nccl_comm, comm_size, nccl_id, rank_id);
++
++  comms[0] = nccl_comm;
++  for(int i=1;i<numStreams;i++){
++    ncclCommSplit(nccl_comm,0,rank_id,&comms[i], NULL);
++  }
++
++}
++
++extern "C" void destroy_nccl_comm(){
++    for (size_t i = 0; i < numStreams; ++i) {
++        ncclCommDestroy(comms[i]);
++    }
++
++}
++
++extern "C" void initialize_cuda_streams(){
++  for(int s=0; s<numStreams; s++){
++      cudaStreamCreate(&streams[s]);
++    }
++}
++
++extern "C" void destroy_cuda_streams(){
++    for (int i = 0; i < numStreams; ++i) {
++        cudaStreamDestroy(streams[i]);
++    }
++}
++extern "C" void allocate_compression_buffers(const int* u_shape, int bndl, int bndu){
++    std::cout << "Executing compressed version - FR = " << compress_rate << " ; Partitions = " << partitions<< std::endl;
++    bndl /= u_shape[0] * u_shape[1] * u_shape[2];
++    bndu /= u_shape[0] * u_shape[1] * u_shape[2];
++    assert(bndl == bndu);
++    int bnd = bndl;
++    int* n_subblock_dimensions = new int(3);
++    int collapse_outer_dimensions = bnd*u_shape[4]*u_shape[5];
++    int third_dimension = (u_shape[2]*collapse_outer_dimensions)/partitions;
++    n_subblock_dimensions[0] = u_shape[0];
++    n_subblock_dimensions[1] = u_shape[1];
++    n_subblock_dimensions[2] = third_dimension;
++
++    ZFPCompressor<double> estimator(nullptr, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++    estimator.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++    size_t est_size_subblock = estimator.estimate_compressed_buffer_size();
++    size_t allocation_size = partitions*est_size_subblock;
++
++    cudaError_t mallocErr;
++    mallocErr =  cudaMalloc((void**)&s_compressed_data_p_real, allocation_size*sizeof(unsigned char));
++    if(mallocErr != cudaSuccess) printf(" [rank_source_p] Error allocating memory: %s\n", cudaGetErrorString(mallocErr));
++    mallocErr =  cudaMalloc((void**)&s_compressed_data_p_img, allocation_size*sizeof(unsigned char));
++    if(mallocErr != cudaSuccess) printf(" [rank_source_p] Error allocating memory: %s\n", cudaGetErrorString(mallocErr));
++
++    mallocErr =  cudaMalloc((void**)&s_compressed_data_m_real, allocation_size*sizeof(unsigned char));
++    if(mallocErr != cudaSuccess) printf(" [rank_source_p] Error allocating memory: %s\n", cudaGetErrorString(mallocErr));
++    mallocErr =  cudaMalloc((void**)&s_compressed_data_m_img, allocation_size*sizeof(unsigned char));
++    if(mallocErr != cudaSuccess) printf(" [rank_source_p] Error allocating memory: %s\n", cudaGetErrorString(mallocErr));
++
++    mallocErr = cudaMalloc((void**)&r_compressed_data_p_real, allocation_size*sizeof(unsigned char));
++    if(mallocErr != cudaSuccess) printf(" [rank_source_p] Error allocating memory: %s\n", cudaGetErrorString(mallocErr));
++    mallocErr =  cudaMalloc((void**)&r_compressed_data_p_img, allocation_size*sizeof(unsigned char));
++    if(mallocErr != cudaSuccess) printf(" [rank_source_p] Error allocating memory: %s\n", cudaGetErrorString(mallocErr));
++
++    mallocErr =   cudaMalloc((void**)&r_compressed_data_m_real, allocation_size*sizeof(unsigned char));
++    if(mallocErr != cudaSuccess) printf("[rank_source_m] Error allocating memory: %s\n", cudaGetErrorString(mallocErr));
++    mallocErr =   cudaMalloc((void**)&r_compressed_data_m_img, allocation_size*sizeof(unsigned char));
++    if(mallocErr != cudaSuccess) printf("[rank_source_m] Error allocating memory: %s\n", cudaGetErrorString(mallocErr));
++}
++
++extern "C" void deallocate_compression_buffers(){
++
++      cudaError_t err = cudaFree(s_compressed_data_p_real);
++      if (err != cudaSuccess) {
++        printf("CUDA error: %s\n", cudaGetErrorString(err));
++      }
++      cudaError_t err2 = cudaFree(s_compressed_data_p_img);
++      if (err2 != cudaSuccess) {
++        printf("CUDA error: %s\n", cudaGetErrorString(err2));
++      }
++
++
++      err = cudaFree(s_compressed_data_m_real);
++      if (err != cudaSuccess) {
++        printf("CUDA error: %s\n", cudaGetErrorString(err));
++      }
++      err2 = cudaFree(s_compressed_data_m_img);
++      if (err2 != cudaSuccess) {
++        printf("CUDA error: %s\n", cudaGetErrorString(err2));
++      }
++
++
++      err = cudaFree(r_compressed_data_p_real);
++      if (err != cudaSuccess) {
++        printf("CUDA error: %s\n", cudaGetErrorString(err));
++      }
++      err2 = cudaFree(r_compressed_data_p_img);
++      if (err2 != cudaSuccess) {
++        printf("CUDA error: %s\n", cudaGetErrorString(err2));
++      }
++
++
++      err = cudaFree(r_compressed_data_m_real);
++      if (err != cudaSuccess) {
++        printf("CUDA error: %s\n", cudaGetErrorString(err));
++      }
++      err2 = cudaFree(r_compressed_data_m_img);
++      if (err != cudaSuccess) {
++        printf("CUDA error: %s\n", cudaGetErrorString(err2));
++      }
++}
++#endif
+ // ======================================================================
+ // exchange_x_general_cuda
+ 
+@@ -111,7 +252,6 @@ extern "C" void exchange_v_cuda_6d(complex_t* _u, const int* u_shape, int bndl,
+   if (bndl == 0 && bndu == 0) {
+     return;
+   }
+-
+   // C_PERFON(__FUNCTION__,strlen(__FUNCTION__));
+   auto u = gt::adapt_device<6>(_u, u_shape);
+   MPI_Comm comm = MPI_Comm_f2c(comm_f);
+@@ -146,6 +286,9 @@ extern "C" void exchange_v_cuda_6d(complex_t* _u, const int* u_shape, int bndl,
+       gt::synchronize();
+     }
+ #else
++    // TODO: Before sending the compressed data, we would now need to send first the amount
++    // of bytes that the receiving rank should expect. As such, we would need 4 more values in
++    // reqs: 1 for each Irecv (rbuf_p and rbuf_m) size and 1 for each Isend(sbuf_p and sbuf_m).
+     MPI_Request reqs[4] = {MPI_REQUEST_NULL, MPI_REQUEST_NULL, MPI_REQUEST_NULL,
+                            MPI_REQUEST_NULL};
+ 
+@@ -153,75 +296,318 @@ extern "C" void exchange_v_cuda_6d(complex_t* _u, const int* u_shape, int bndl,
+     auto sbuf_m = gt::eval(u.view(_all, _all, _all, _s(bnd, 2 * bnd)));
+     auto rbuf_p = gt::empty_like(sbuf_p);
+     auto rbuf_m = gt::empty_like(sbuf_m);
+-
+     int rank_source_p, rank_dest_p;
+     int rank_source_m, rank_dest_m;
+     MPI_Cart_shift(comm, 2, 1, &rank_source_p, &rank_dest_p);
+     MPI_Cart_shift(comm, 2, -1, &rank_source_m, &rank_dest_m);
+ 
++    int rank_id;
++    int nccl_rank_id;
++    int nccl_ranks;
++    MPI_Comm_rank(comm, &rank_id);
++    ncclCommUserRank(nccl_comm, &nccl_rank_id);
++    ncclCommCount(nccl_comm, &nccl_ranks);
++#ifdef HAVE_GPU_AWARE_MPI
++  int* n_dimensions = new int(6);
++  int* n_subblock_dimensions = new int(3);
++
++  for (int dim = 0; dim<6; dim++){
++    n_dimensions[dim] = sbuf_p.shape(dim);
++  }
++
++  int collapse_outer_dimensions = sbuf_p.shape(3)*sbuf_p.shape(4)*sbuf_p.shape(5);
++  int third_dimension = (sbuf_p.shape(2)*collapse_outer_dimensions)/partitions;
++  n_subblock_dimensions[0] = sbuf_p.shape(0);
++  n_subblock_dimensions[1] = sbuf_p.shape(1);
++  n_subblock_dimensions[2] = third_dimension;
++
++  // This # of partitions will be used to do an overlapped compression/communication
++  // scheme for the multiple 3D subblocks of the total 6D data.
++  int subblockSize = n_subblock_dimensions[0]*n_subblock_dimensions[1]*n_subblock_dimensions[2];
++  double partitions_size = (subblockSize*sizeof(double))/((sizeof(double)*8)/compress_rate);
++
++  // These are actually just pointers that will be used as offsets over the actual compressed data buffers
++  unsigned char *s_subblock_data_p_real, *s_subblock_data_m_real,
++                *r_subblock_data_p_real, *r_subblock_data_m_real;
++  unsigned char *s_subblock_data_p_img, *s_subblock_data_m_img,
++                *r_subblock_data_p_img, *r_subblock_data_m_img;
++
++  // Pointer to data to compress
++  double* sbuf_p_to_compress = reinterpret_cast<double*>(gt::raw_pointer_cast(sbuf_p.data()));
++  double* sbuf_m_to_compress = reinterpret_cast<double*>(gt::raw_pointer_cast(sbuf_m.data()));
++  // Pointer to buffer where to decompress
++  double* decompression_ptr_p = reinterpret_cast<double*>(gt::raw_pointer_cast(rbuf_p.data()));
++  double* decompression_ptr_m = reinterpret_cast<double*>(gt::raw_pointer_cast(rbuf_m.data()));
++
++  ZFPCompressor<double> estimator_sbuf_real(sbuf_p_to_compress, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++  estimator_sbuf_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++  size_t est_size_subblock = estimator_sbuf_real.estimate_compressed_buffer_size();
++ #endif
++
+ #ifndef HAVE_GPU_AWARE_MPI
+     gt::gtensor<complex_t, 6> h_rbuf_p(rbuf_p.shape());
+     gt::gtensor<complex_t, 6> h_rbuf_m(rbuf_m.shape());
+     gt::gtensor<complex_t, 6> h_sbuf_p(sbuf_p.shape());
+     gt::gtensor<complex_t, 6> h_sbuf_m(sbuf_m.shape());
+ #endif
+-    if (rank_source_p >= 0) {
++
+ #ifdef HAVE_GPU_AWARE_MPI
+-      MPI_Irecv(gt::raw_pointer_cast(rbuf_p.data()), rbuf_p.size(),
+-                MPI_COMPLEX_TYPE, rank_source_p, 123, comm, &reqs[0]);
+-#else
+-      MPI_Irecv(h_rbuf_p.data(), h_rbuf_p.size(), MPI_COMPLEX_TYPE,
+-                rank_source_p, 123, comm, &reqs[0]);
+-#endif
++
++if(rank_v % 2 == 0){
++  if(rank_v < n_procs_v-1){
++      //Send sbuf_p to updoor neighbor
++      //Receive rbuf_m from updoor neighbor
++    for(int i=0; i < partitions; i++){
++          int streamIndex = i % numStreams;
++          // Calculate the starting index of the current subblock
++          int startIdx_real = (i * subblockSize*2);
++          int startIdx_img = startIdx_real + 1;
++          int startIdx_compressed = (i * partitions_size);
++          //Pointers to data to compress
++          double* subblock_real_sbuf_p = &sbuf_p_to_compress[startIdx_real];
++          double* subblock_img_sbuf_p = &sbuf_p_to_compress[startIdx_img];
++          //Pointers where to decompress
++          double* subblock_real_rbuf_m = &decompression_ptr_m[startIdx_real];
++          double* subblock_img_rbuf_m = &decompression_ptr_m[startIdx_img];
++          //Pointers to compressed buffer where to write compressed data
++          s_subblock_data_p_real = &s_compressed_data_p_real[startIdx_compressed];
++          s_subblock_data_p_img = &s_compressed_data_p_img[startIdx_compressed];
++
++          r_subblock_data_m_real = &r_compressed_data_m_real[startIdx_compressed];
++          r_subblock_data_m_img = &r_compressed_data_m_img[startIdx_compressed];
++
++          ZFPCompressor<double> zfp_compressor_real(subblock_real_sbuf_p, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_compressor_img(subblock_img_sbuf_p, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_decompressor_real(subblock_real_rbuf_m, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_decompressor_img(subblock_img_rbuf_m, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++
++          zfp_compressor_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_compressor_real.ZFPCompressorSetCudaStream(streams[streamIndex]);
++          zfp_compressor_img.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_compressor_img.ZFPCompressorSetCudaStream(streams[streamIndex]);
++
++          zfp_decompressor_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_decompressor_real.ZFPCompressorSetCudaStream(streams[streamIndex]);
++          zfp_decompressor_img.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_decompressor_img.ZFPCompressorSetCudaStream(streams[streamIndex]);
++
++          zfp_compressor_real.compress_fixed_rate(s_subblock_data_p_real, est_size_subblock);
++          zfp_compressor_img.compress_fixed_rate(s_subblock_data_p_img, est_size_subblock);
++          ncclGroupStart();
++          ncclSend(s_subblock_data_p_real, partitions_size, ncclChar, rank_dest_p, comms[streamIndex], streams[streamIndex]);
++          ncclRecv(r_subblock_data_m_real, partitions_size, ncclChar, rank_source_m, comms[streamIndex], streams[streamIndex]);
++          ncclSend(s_subblock_data_p_img, partitions_size, ncclChar, rank_dest_p, comms[streamIndex], streams[streamIndex]);
++          ncclRecv(r_subblock_data_m_img, partitions_size, ncclChar, rank_source_m, comms[streamIndex], streams[streamIndex]);
++          ncclGroupEnd();
++          zfp_decompressor_real.decompress_fixed_rate(r_subblock_data_m_real, est_size_subblock);
++          zfp_decompressor_img.decompress_fixed_rate(r_subblock_data_m_img, est_size_subblock);
+     }
+-    if (rank_source_m >= 0) {
+-#ifdef HAVE_GPU_AWARE_MPI
+-      MPI_Irecv(gt::raw_pointer_cast(rbuf_m.data()), rbuf_m.size(),
+-                MPI_COMPLEX_TYPE, rank_source_m, 456, comm, &reqs[2]);
+-#else
+-      MPI_Irecv(h_rbuf_m.data(), h_rbuf_m.size(), MPI_COMPLEX_TYPE,
+-                rank_source_m, 456, comm, &reqs[2]);
+-#endif
++  }
++  if(rank_v > 0){
++      //Send sbuf_m to downdoor neighbor
++      //Receive rbuf_p from downdoor neighbor
++    for(int i=0; i < partitions; i++){
++          int streamIndex = i % numStreams;
++          // Calculate the starting index of the current subblock
++          int startIdx_real = (i * subblockSize*2);
++          int startIdx_img = startIdx_real + 1;
++          int startIdx_compressed = (i * partitions_size);
++
++          //Pointers to data to compress
++          double* subblock_real_sbuf_m = &sbuf_m_to_compress[startIdx_real];
++          double* subblock_img_sbuf_m = &sbuf_m_to_compress[startIdx_img];
++          //Pointers where to decompress
++          double* subblock_real_rbuf_p = &decompression_ptr_p[startIdx_real];
++          double* subblock_img_rbuf_p = &decompression_ptr_p[startIdx_img];
++          //Pointers to compressed buffer where to write compressed data
++          s_subblock_data_m_real = &s_compressed_data_m_real[startIdx_compressed];
++          s_subblock_data_m_img = &s_compressed_data_m_img[startIdx_compressed];
++
++          r_subblock_data_p_real = &r_compressed_data_p_real[startIdx_compressed];
++          r_subblock_data_p_img = &r_compressed_data_p_img[startIdx_compressed];
++
++          ZFPCompressor<double> zfp_compressor_real(subblock_real_sbuf_m, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_compressor_img(subblock_img_sbuf_m, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_decompressor_real(subblock_real_rbuf_p, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_decompressor_img(subblock_img_rbuf_p, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++
++          zfp_compressor_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_compressor_real.ZFPCompressorSetCudaStream(streams[streamIndex]);
++          zfp_compressor_img.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_compressor_img.ZFPCompressorSetCudaStream(streams[streamIndex]);
++
++          zfp_decompressor_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_decompressor_real.ZFPCompressorSetCudaStream(streams[streamIndex]);
++          zfp_decompressor_img.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_decompressor_img.ZFPCompressorSetCudaStream(streams[streamIndex]);
++
++          zfp_compressor_real.compress_fixed_rate(s_subblock_data_m_real, est_size_subblock);
++          zfp_compressor_img.compress_fixed_rate(s_subblock_data_m_img, est_size_subblock);
++          ncclGroupStart();
++          ncclSend(s_subblock_data_m_real, partitions_size, ncclChar, rank_dest_m, comms[streamIndex], streams[streamIndex]);
++          ncclRecv(r_subblock_data_p_real, partitions_size, ncclChar, rank_source_p, comms[streamIndex], streams[streamIndex]);
++          ncclSend(s_subblock_data_m_img, partitions_size, ncclChar, rank_dest_m, comms[streamIndex], streams[streamIndex]);
++          ncclRecv(r_subblock_data_p_img, partitions_size, ncclChar, rank_source_p, comms[streamIndex], streams[streamIndex]);
++          ncclGroupEnd();
++          zfp_decompressor_real.decompress_fixed_rate(r_subblock_data_p_real, est_size_subblock);
++          zfp_decompressor_img.decompress_fixed_rate(r_subblock_data_p_img, est_size_subblock);
++    }
++  }
++}else{
++  if(rank_v > 0){
++      //Send sbuf_m to downdoor neighbor
++      //Receive rbuf_p from downdoor neighbor
++    for(int i=0; i < partitions; i++){
++          int streamIndex = i % numStreams;
++          // Calculate the starting index of the current subblock
++          int startIdx_real = (i * subblockSize*2);
++          int startIdx_img = startIdx_real + 1;
++          int startIdx_compressed = (i * partitions_size);
++
++          //Pointers to data to compress
++          double* subblock_real_sbuf_m = &sbuf_m_to_compress[startIdx_real];
++          double* subblock_img_sbuf_m = &sbuf_m_to_compress[startIdx_img];
++          //Pointers where to decompress
++          double* subblock_real_rbuf_p = &decompression_ptr_p[startIdx_real];
++          double* subblock_img_rbuf_p = &decompression_ptr_p[startIdx_img];
++          //Pointers to compressed buffer where to write compressed data
++          s_subblock_data_m_real = &s_compressed_data_m_real[startIdx_compressed];
++          s_subblock_data_m_img = &s_compressed_data_m_img[startIdx_compressed];
++
++          r_subblock_data_p_real = &r_compressed_data_p_real[startIdx_compressed];
++          r_subblock_data_p_img = &r_compressed_data_p_img[startIdx_compressed];
++
++          ZFPCompressor<double> zfp_compressor_real(subblock_real_sbuf_m, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_compressor_img(subblock_img_sbuf_m, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_decompressor_real(subblock_real_rbuf_p, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_decompressor_img(subblock_img_rbuf_p, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++
++          zfp_compressor_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_compressor_real.ZFPCompressorSetCudaStream(streams[streamIndex]);
++          zfp_compressor_img.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_compressor_img.ZFPCompressorSetCudaStream(streams[streamIndex]);
++
++          zfp_decompressor_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_decompressor_real.ZFPCompressorSetCudaStream(streams[streamIndex]);
++          zfp_decompressor_img.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_decompressor_img.ZFPCompressorSetCudaStream(streams[streamIndex]);
++
++          zfp_compressor_real.compress_fixed_rate(s_subblock_data_m_real, est_size_subblock);
++          zfp_compressor_img.compress_fixed_rate(s_subblock_data_m_img, est_size_subblock);
++          ncclGroupStart();
++          ncclRecv(r_subblock_data_p_real, partitions_size, ncclChar, rank_source_p, comms[streamIndex], streams[streamIndex]);
++          ncclSend(s_subblock_data_m_real, partitions_size, ncclChar, rank_dest_m, comms[streamIndex], streams[streamIndex]);
++          ncclRecv(r_subblock_data_p_img, partitions_size, ncclChar, rank_source_p, comms[streamIndex], streams[streamIndex]);
++          ncclSend(s_subblock_data_m_img, partitions_size, ncclChar, rank_dest_m, comms[streamIndex], streams[streamIndex]);
++          ncclGroupEnd();
++          zfp_decompressor_real.decompress_fixed_rate(r_subblock_data_p_real, est_size_subblock);
++          zfp_decompressor_img.decompress_fixed_rate(r_subblock_data_p_img, est_size_subblock);
+     }
++  }
+ 
+-    gt::synchronize();
++if(rank_v < n_procs_v-1){
++      //Send sbuf_p to updoor neighbor
++      //Receive rbuf_m from updoor neighbor
++    for(int i=0; i < partitions; i++){
++          int streamIndex = i % numStreams;
++          // Calculate the starting index of the current subblock
++          int startIdx_real = (i * subblockSize*2);
++          int startIdx_img = startIdx_real + 1;
++          int startIdx_compressed = (i * partitions_size);
++          //Pointers to data to compress
++          double* subblock_real_sbuf_p = &sbuf_p_to_compress[startIdx_real];
++          double* subblock_img_sbuf_p = &sbuf_p_to_compress[startIdx_img];
++          //Pointers where to decompress
++          double* subblock_real_rbuf_m = &decompression_ptr_m[startIdx_real];
++          double* subblock_img_rbuf_m = &decompression_ptr_m[startIdx_img];
++          //Pointers to compressed buffer where to write compressed data
++          s_subblock_data_p_real = &s_compressed_data_p_real[startIdx_compressed];
++          s_subblock_data_p_img = &s_compressed_data_p_img[startIdx_compressed];
++
++          r_subblock_data_m_real = &r_compressed_data_m_real[startIdx_compressed];
++          r_subblock_data_m_img = &r_compressed_data_m_img[startIdx_compressed];
++
++          ZFPCompressor<double> zfp_compressor_real(subblock_real_sbuf_p, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_compressor_img(subblock_img_sbuf_p, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_decompressor_real(subblock_real_rbuf_m, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++          ZFPCompressor<double> zfp_decompressor_img(subblock_img_rbuf_m, 3, n_subblock_dimensions, compress_rate, GPU_BACKEND);
++
++          zfp_compressor_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_compressor_real.ZFPCompressorSetCudaStream(streams[streamIndex]);
++          zfp_compressor_img.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_compressor_img.ZFPCompressorSetCudaStream(streams[streamIndex]);
++
++          zfp_decompressor_real.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_decompressor_real.ZFPCompressorSetCudaStream(streams[streamIndex]);
++          zfp_decompressor_img.ZFPCompressorSetStrides(2, 2*n_subblock_dimensions[0], 2*n_subblock_dimensions[0]*n_subblock_dimensions[1]);
++          zfp_decompressor_img.ZFPCompressorSetCudaStream(streams[streamIndex]);
++
++          zfp_compressor_real.compress_fixed_rate(s_subblock_data_p_real, est_size_subblock);
++          zfp_compressor_img.compress_fixed_rate(s_subblock_data_p_img, est_size_subblock);
++          ncclGroupStart();
++          ncclRecv(r_subblock_data_m_real, partitions_size, ncclChar, rank_source_m, comms[streamIndex], streams[streamIndex]);
++          ncclSend(s_subblock_data_p_real, partitions_size, ncclChar, rank_dest_p, comms[streamIndex], streams[streamIndex]);
++          ncclRecv(r_subblock_data_m_img, partitions_size, ncclChar, rank_source_m, comms[streamIndex], streams[streamIndex]);
++          ncclSend(s_subblock_data_p_img, partitions_size, ncclChar, rank_dest_p, comms[streamIndex], streams[streamIndex]);
++          ncclGroupEnd();
++          zfp_decompressor_real.decompress_fixed_rate(r_subblock_data_m_real, est_size_subblock);
++          zfp_decompressor_img.decompress_fixed_rate(r_subblock_data_m_img, est_size_subblock);
++    }
++  }
++}
+ 
+-    if (rank_dest_p >= 0) {
+-#ifdef HAVE_GPU_AWARE_MPI
+-      MPI_Isend(gt::raw_pointer_cast(sbuf_p.data()), sbuf_p.size(),
+-                MPI_COMPLEX_TYPE, rank_dest_p, 123, comm, &reqs[1]);
+-#else
++#endif
++
++#ifndef HAVE_GPU_AWARE_MPI
++  if (rank_source_p >= 0) {
++    MPI_Irecv(h_rbuf_p.data(), h_rbuf_p.size(), MPI_COMPLEX_TYPE,
++                rank_source_p, 123, comm, &reqs[0]);
++  }
++
++  if (rank_source_m >= 0) {
++    MPI_Irecv(h_rbuf_m.data(), h_rbuf_m.size(), MPI_COMPLEX_TYPE,
++             rank_source_m, 456, comm, &reqs[2]);
++  }
++
++  gt::synchronize();
++
++  if (rank_dest_p >= 0) {
+       copy(sbuf_p, h_sbuf_p);
+       MPI_Isend(h_sbuf_p.data(), h_sbuf_p.size(), MPI_COMPLEX_TYPE, rank_dest_p,
+                 123, comm, &reqs[1]);
++  }
++  if (rank_dest_m >= 0) {
++    copy(sbuf_m, h_sbuf_m);
++    MPI_Isend(h_sbuf_m.data(), h_sbuf_m.size(), MPI_COMPLEX_TYPE, rank_dest_m,
++              456, comm, &reqs[3]);
++  }
++
++  MPI_Waitall(4, reqs, MPI_STATUSES_IGNORE);
+ #endif
+-    }
+-    if (rank_dest_m >= 0) {
+-#ifdef HAVE_GPU_AWARE_MPI
+-      MPI_Isend(gt::raw_pointer_cast(sbuf_m.data()), sbuf_m.size(),
+-                MPI_COMPLEX_TYPE, rank_dest_m, 456, comm, &reqs[3]);
+-#else
+-      copy(sbuf_m, h_sbuf_m);
+-      MPI_Isend(h_sbuf_m.data(), h_sbuf_m.size(), MPI_COMPLEX_TYPE, rank_dest_m,
+-                456, comm, &reqs[3]);
+-#endif
+-    }
+ 
+-    MPI_Waitall(4, reqs, MPI_STATUSES_IGNORE);
++
+ #ifndef HAVE_GPU_AWARE_MPI
+     copy(h_rbuf_p, rbuf_p);
+     copy(h_rbuf_m, rbuf_m);
+ #endif
+ 
++
++#ifdef HAVE_GPU_AWARE_MPI
++  for (int i = 0; i < numStreams; ++i) {
++    cudaStreamSynchronize(streams[i]);
++  }
++
++#endif
++  gt::synchronize();
++
+     if (rank_source_p >= 0) {
+-      u.view(_all, _all, _all, _s(_, bnd)) = rbuf_p;
++        u.view(_all, _all, _all, _s(_, bnd)) = rbuf_p;
+     }
+     if (rank_source_m >= 0) {
+       u.view(_all, _all, _all, _s(-bnd, _)) = rbuf_m;
+     }
+-#endif
+   }
+-
++#endif
+   // Here we would apply the physical boundary conditions as post-process of the
+   // exchange. It is only applied to the outer processes.
+ 

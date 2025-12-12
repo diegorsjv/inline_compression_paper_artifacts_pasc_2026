@@ -1,0 +1,3867 @@
+no compression 1 pairs - 0.75 MB 1
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000106929 seconds
+no compression 1 pairs - 0.75 MB 2
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000106777 seconds
+no compression 1 pairs - 0.75 MB 3
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000106816 seconds
+no compression 1 pairs - 0.75 MB 4
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000106741 seconds
+no compression 1 pairs - 0.75 MB 5
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000106717 seconds
+no compression 1 pairs - 0.75 MB 6
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000106802 seconds
+no compression 1 pairs - 0.75 MB 7
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000106617 seconds
+no compression 1 pairs - 0.75 MB 8
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000106744 seconds
+no compression 1 pairs - 0.75 MB 9
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000106733 seconds
+no compression 1 pairs - 0.75 MB 10
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Dimensions: 96,8,8,2,8,1
+Size in bytes = 786432
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000106814 seconds
+no compression 1 pairs - 1.5 MB 1
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000152378 seconds
+no compression 1 pairs - 1.5 MB 2
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000152416 seconds
+no compression 1 pairs - 1.5 MB 3
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000152307 seconds
+no compression 1 pairs - 1.5 MB 4
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000152675 seconds
+no compression 1 pairs - 1.5 MB 5
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00015223 seconds
+no compression 1 pairs - 1.5 MB 6
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00015224 seconds
+no compression 1 pairs - 1.5 MB 7
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000152368 seconds
+no compression 1 pairs - 1.5 MB 8
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000152143 seconds
+no compression 1 pairs - 1.5 MB 9
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000152609 seconds
+no compression 1 pairs - 1.5 MB 10
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Dimensions: 96,8,16,2,8,1
+Size in bytes = 1572864
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000168275 seconds
+no compression 1 pairs - 3 MB 1
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000235176 seconds
+no compression 1 pairs - 3 MB 2
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000235115 seconds
+no compression 1 pairs - 3 MB 3
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00024863 seconds
+no compression 1 pairs - 3 MB 4
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000235103 seconds
+no compression 1 pairs - 3 MB 5
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000249382 seconds
+no compression 1 pairs - 3 MB 6
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000248629 seconds
+no compression 1 pairs - 3 MB 7
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000235177 seconds
+no compression 1 pairs - 3 MB 8
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000250961 seconds
+no compression 1 pairs - 3 MB 9
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000250654 seconds
+no compression 1 pairs - 3 MB 10
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Dimensions: 96,16,16,2,8,1
+Size in bytes = 3145728
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000251435 seconds
+no compression 1 pairs - 4.5 MB 1
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000312362 seconds
+no compression 1 pairs - 4.5 MB 2
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000332935 seconds
+no compression 1 pairs - 4.5 MB 3
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000312816 seconds
+no compression 1 pairs - 4.5 MB 4
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000316621 seconds
+no compression 1 pairs - 4.5 MB 5
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000295058 seconds
+no compression 1 pairs - 4.5 MB 6
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000295436 seconds
+no compression 1 pairs - 4.5 MB 7
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000307812 seconds
+no compression 1 pairs - 4.5 MB 8
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000310901 seconds
+no compression 1 pairs - 4.5 MB 9
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000314658 seconds
+no compression 1 pairs - 4.5 MB 10
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Dimensions: 96,16,24,2,8,1
+Size in bytes = 4718592
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000310766 seconds
+no compression 1 pairs - 6.75 MB 1
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000445925 seconds
+no compression 1 pairs - 6.75 MB 2
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000443716 seconds
+no compression 1 pairs - 6.75 MB 3
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000473956 seconds
+no compression 1 pairs - 6.75 MB 4
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+Rank 1Device ID: 1 on node: ravg1051
+
+Average iteration time: 0.000443899 seconds
+no compression 1 pairs - 6.75 MB 5
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000474448 seconds
+no compression 1 pairs - 6.75 MB 6
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000444104 seconds
+no compression 1 pairs - 6.75 MB 7
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000478724 seconds
+no compression 1 pairs - 6.75 MB 8
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000423981 seconds
+no compression 1 pairs - 6.75 MB 9
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000423761 seconds
+no compression 1 pairs - 6.75 MB 10
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Dimensions: 96,24,24,2,8,1
+Size in bytes = 7077888
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00042317 seconds
+no compression 1 pairs - 9  MB 1
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000535128 seconds
+no compression 1 pairs - 9  MB 2
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000557603 seconds
+no compression 1 pairs - 9  MB 3
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000555772 seconds
+no compression 1 pairs - 9  MB 4
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000575538 seconds
+no compression 1 pairs - 9  MB 5
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000570278 seconds
+no compression 1 pairs - 9  MB 6
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00055852 seconds
+no compression 1 pairs - 9  MB 7
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0005805 seconds
+no compression 1 pairs - 9  MB 8
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00057022 seconds
+no compression 1 pairs - 9  MB 9
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000575376 seconds
+no compression 1 pairs - 9  MB 10
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Dimensions: 96,24,32,2,8,1
+Size in bytes = 9437184
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00058334 seconds
+no compression 1 pairs - 10.125  MB 1
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000617388 seconds
+no compression 1 pairs - 10.125  MB 2
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000618987 seconds
+no compression 1 pairs - 10.125  MB 3
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000618438 seconds
+no compression 1 pairs - 10.125  MB 4
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000665071 seconds
+no compression 1 pairs - 10.125  MB 5
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000639516 seconds
+no compression 1 pairs - 10.125  MB 6
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000590275 seconds
+no compression 1 pairs - 10.125  MB 7
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000590062 seconds
+no compression 1 pairs - 10.125  MB 8
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000619031 seconds
+no compression 1 pairs - 10.125  MB 9
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000666312 seconds
+no compression 1 pairs - 10.125  MB 10
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Dimensions: 144,24,24,2,8,1
+Size in bytes = 10616832
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000634027 seconds
+no compression 1 pairs - 12 MB 1
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000760776 seconds
+no compression 1 pairs - 12 MB 2
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000673536 seconds
+no compression 1 pairs - 12 MB 3
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000767647 seconds
+no compression 1 pairs - 12 MB 4
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000673368 seconds
+no compression 1 pairs - 12 MB 5
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000676474 seconds
+no compression 1 pairs - 12 MB 6
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000673823 seconds
+no compression 1 pairs - 12 MB 7
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000725938 seconds
+no compression 1 pairs - 12 MB 8
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000763979 seconds
+no compression 1 pairs - 12 MB 9
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000764752 seconds
+no compression 1 pairs - 12 MB 10
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Dimensions: 96,32,32,2,8,1
+Size in bytes = 12582912
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000760777 seconds
+no compression 1 pairs - 13.5 MB 1
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00079922 seconds
+no compression 1 pairs - 13.5 MB 2
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000864827 seconds
+no compression 1 pairs - 13.5 MB 3
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000863763 seconds
+no compression 1 pairs - 13.5 MB 4
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000763562 seconds
+no compression 1 pairs - 13.5 MB 5
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000799636 seconds
+no compression 1 pairs - 13.5 MB 6
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000799627 seconds
+no compression 1 pairs - 13.5 MB 7
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000800327 seconds
+no compression 1 pairs - 13.5 MB 8
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000799441 seconds
+no compression 1 pairs - 13.5 MB 9
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000799608 seconds
+no compression 1 pairs - 13.5 MB 10
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Dimensions: 192,24,24,2,8,1
+Size in bytes = 14155776
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000862825 seconds
+no compression 1 pairs 18 MB 1
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00109721 seconds
+no compression 1 pairs 18 MB 2
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00110609 seconds
+no compression 1 pairs 18 MB 3
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.000976138 seconds
+no compression 1 pairs 18 MB 4
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00110682 seconds
+no compression 1 pairs 18 MB 5
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00104216 seconds
+no compression 1 pairs 18 MB 6
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00101119 seconds
+no compression 1 pairs 18 MB 7
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00111205 seconds
+no compression 1 pairs 18 MB 8
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00100803 seconds
+no compression 1 pairs 18 MB 9
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00110493 seconds
+no compression 1 pairs 18 MB 10
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Dimensions: 192,32,24,2,8,1
+Size in bytes = 18874368
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00111112 seconds
+20.25 MB 1
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00118453 seconds
+20.25 MB 2
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00117141 seconds
+20.25 MB 3
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00110118 seconds
+20.25 MB 4
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00109833 seconds
+20.25 MB 5
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00109337 seconds
+20.25 MB 6
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00123257 seconds
+20.25 MB 7
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00114105 seconds
+20.25 MB 8
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00123664 seconds
+20.25 MB 9
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00123548 seconds
+20.25 MB 10
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Dimensions: 192,36,24,2,8,1
+Size in bytes = 21233664
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00114162 seconds
+23.625 MB 1
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00133227 seconds
+23.625 MB 2
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00133429 seconds
+23.625 MB 3
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00133183 seconds
+23.625 MB 4
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00126416 seconds
+23.625 MB 5
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00132595 seconds
+23.625 MB 6
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0013326 seconds
+23.625 MB 7
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00133387 seconds
+23.625 MB 8
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00133414 seconds
+23.625 MB 9
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00133213 seconds
+23.625 MB 10
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Dimensions: 192,36,28,2,8,1
+Size in bytes = 24772608
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00133431 seconds
+26.25 MB 1
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0014528 seconds
+26.25 MB 2
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00156373 seconds
+26.25 MB 3
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00157982 seconds
+26.25 MB 4
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00145362 seconds
+26.25 MB 5
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00157889 seconds
+26.25 MB 6
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00158486 seconds
+26.25 MB 7
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00138954 seconds
+26.25 MB 8
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00139381 seconds
+26.25 MB 9
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00139458 seconds
+26.25 MB 10
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Dimensions: 192,40,28,2,8,1
+Size in bytes = 27525120
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00145331 seconds
+30 MB 1
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00171392 seconds
+30 MB 2
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00175319 seconds
+30 MB 3
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00174313 seconds
+30 MB 4
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00157797 seconds
+30 MB 5
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00171011 seconds
+30 MB 6
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00170723 seconds
+30 MB 7
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00171366 seconds
+30 MB 8
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00175828 seconds
+30 MB 9
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00170381 seconds
+30 MB 10
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Dimensions: 192,40,32,2,8,1
+Size in bytes = 31457280
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00169716 seconds
+33 MB 1
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00198842 seconds
+33 MB 2
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00179709 seconds
+33 MB 3
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Initialization complete
+Rank 1Device ID: 1 on node: ravg1051
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00180013 seconds
+33 MB 4
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00186263 seconds
+33 MB 5
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199962 seconds
+33 MB 6
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00185503 seconds
+33 MB 7
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199965 seconds
+33 MB 8
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00179959 seconds
+33 MB 9
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199965 seconds
+33 MB 10
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Dimensions: 192,44,32,2,8,1
+Size in bytes = 34603008
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00198229 seconds
+37.125 MB 1
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199958 seconds
+37.125 MB 2
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199934 seconds
+37.125 MB 3
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00193362 seconds
+37.125 MB 4
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00193309 seconds
+37.125 MB 5
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00193719 seconds
+37.125 MB 6
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00193336 seconds
+37.125 MB 7
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199959 seconds
+37.125 MB 8
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199959 seconds
+37.125 MB 9
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199952 seconds
+37.125 MB 10
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Dimensions: 192,44,36,2,8,1
+Size in bytes = 38928384
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00199943 seconds
+41.25 MB 1
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00239841 seconds
+41.25 MB 2
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00228586 seconds
+41.25 MB 3
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00239967 seconds
+41.25 MB 4
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00228515 seconds
+41.25 MB 5
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00228492 seconds
+41.25 MB 6
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00222302 seconds
+41.25 MB 7
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00239964 seconds
+41.25 MB 8
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00239965 seconds
+41.25 MB 9
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00222304 seconds
+41.25 MB 10
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Dimensions: 192,44,40,2,8,1
+Size in bytes = 43253760
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00214637 seconds
+45 MB 1
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00254461 seconds
+45 MB 2
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00254423 seconds
+45 MB 3
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00234364 seconds
+45 MB 4
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00254632 seconds
+45 MB 5
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0025461 seconds
+45 MB 6
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00239975 seconds
+45 MB 7
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00249959 seconds
+45 MB 8
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00234018 seconds
+45 MB 9
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00234373 seconds
+45 MB 10
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Dimensions: 192,48,40,2,8,1
+Size in bytes = 47185920
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00234045 seconds
+49.5 MB 1
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00272046 seconds
+49.5 MB 2
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00271983 seconds
+49.5 MB 3
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00271953 seconds
+49.5 MB 4
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00271752 seconds
+49.5 MB 5
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00272583 seconds
+49.5 MB 6
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00266725 seconds
+49.5 MB 7
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00266527 seconds
+49.5 MB 8
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00273119 seconds
+49.5 MB 9
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0026653 seconds
+49.5 MB 10
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Dimensions: 192,48,44,2,8,1
+Size in bytes = 51904512
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00272736 seconds
+54 MB 1
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00299964 seconds
+54 MB 2
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00300066 seconds
+54 MB 3
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00299961 seconds
+54 MB 4
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00299963 seconds
+54 MB 5
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00280764 seconds
+54 MB 6
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00285662 seconds
+54 MB 7
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00285697 seconds
+54 MB 8
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00285721 seconds
+54 MB 9
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00299897 seconds
+54 MB 10
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Dimensions: 192,48,48,2,8,1
+Size in bytes = 56623104
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00285719 seconds
+63 MB 1
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00333324 seconds
+63 MB 2
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00344116 seconds
+63 MB 3
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00327 seconds
+63 MB 4
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00327505 seconds
+63 MB 5
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00329015 seconds
+63 MB 6
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00342791 seconds
+63 MB 7
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00343048 seconds
+63 MB 8
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00347966 seconds
+63 MB 9
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00347262 seconds
+63 MB 10
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Dimensions: 192,56,48,2,8,1
+Size in bytes = 66060288
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00333402 seconds
+108 MB 1
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00563771 seconds
+108 MB 2
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00563961 seconds
+108 MB 3
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00575294 seconds
+108 MB 4
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00561969 seconds
+108 MB 5
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00582306 seconds
+108 MB 6
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00582721 seconds
+108 MB 7
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00562962 seconds
+108 MB 8
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0058157 seconds
+108 MB 9
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00574191 seconds
+108 MB 10
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Dimensions: 192,96,48,2,8,1
+Size in bytes = 113246208
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.00561874 seconds
+216 MB 1
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0112886 seconds
+216 MB 2
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0112784 seconds
+216 MB 3
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0113951 seconds
+216 MB 4
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0112752 seconds
+216 MB 5
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0115081 seconds
+216 MB 6
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0114791 seconds
+216 MB 7
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0115086 seconds
+216 MB 8
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0114942 seconds
+216 MB 9
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0114912 seconds
+216 MB 10
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Dimensions: 192,96,96,2,8,1
+Size in bytes = 226492416
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0114622 seconds
+432 MB 1
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0227156 seconds
+432 MB 2
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0227027 seconds
+432 MB 3
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0227985 seconds
+432 MB 4
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0227225 seconds
+432 MB 5
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.022989 seconds
+432 MB 6
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0230656 seconds
+432 MB 7
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0226628 seconds
+432 MB 8
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0230368 seconds
+432 MB 9
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0229994 seconds
+432 MB 10
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Dimensions: 192,192,96,2,8,1
+Size in bytes = 452984832
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0230595 seconds
+468 MB 1
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.024999 seconds
+468 MB 2
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0246133 seconds
+468 MB 3
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0246374 seconds
+468 MB 4
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0246059 seconds
+468 MB 5
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.024999 seconds
+468 MB 6
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0249121 seconds
+468 MB 7
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0246551 seconds
+468 MB 8
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0248738 seconds
+468 MB 9
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0249206 seconds
+468 MB 10
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Dimensions: 192,192,104,2,8,1
+Size in bytes = 490733568
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0245589 seconds
+540 MB 1
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.028727 seconds
+540 MB 2
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0289994 seconds
+540 MB 3
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0287437 seconds
+540 MB 4
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0287586 seconds
+540 MB 5
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.028766 seconds
+540 MB 6
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0287004 seconds
+540 MB 7
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0289064 seconds
+540 MB 8
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0289138 seconds
+540 MB 9
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.028999 seconds
+540 MB 10
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Dimensions: 192,192,120,2,8,1
+Size in bytes = 566231040
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0287349 seconds
+700 MB 1
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0395709 seconds
+700 MB 2
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.039731 seconds
+700 MB 3
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0395574 seconds
+700 MB 4
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0395351 seconds
+700 MB 5
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0397489 seconds
+700 MB 6
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0399994 seconds
+700 MB 7
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0397445 seconds
+700 MB 8
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0395372 seconds
+700 MB 9
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0399994 seconds
+700 MB 10
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Dimensions: 192,192,152,2,8,1
+Size in bytes = 717225984
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0395593 seconds
+950 MB 1
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0591847 seconds
+950 MB 2
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0599993 seconds
+950 MB 3
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0591677 seconds
+950 MB 4
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0591495 seconds
+950 MB 5
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0591444 seconds
+950 MB 6
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0599972 seconds
+950 MB 7
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.059204 seconds
+950 MB 8
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0599994 seconds
+950 MB 9
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0591786 seconds
+950 MB 10
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Dimensions: 192,192,200,2,8,1
+Size in bytes = 943718400
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0591761 seconds
+1200 MB 1
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0920072 seconds
+1200 MB 2
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0920003 seconds
+1200 MB 3
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0923856 seconds
+1200 MB 4
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0925597 seconds
+1200 MB 5
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0925458 seconds
+1200 MB 6
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0923456 seconds
+1200 MB 7
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0925513 seconds
+1200 MB 8
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0922223 seconds
+1200 MB 9
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0924596 seconds
+1200 MB 10
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Dimensions: 192,192,256,2,8,1
+Size in bytes = 1207959552
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.0924857 seconds
+1500 MB 1
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.132999 seconds
+1500 MB 2
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.13283 seconds
+1500 MB 3
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.132862 seconds
+1500 MB 4
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.132947 seconds
+1500 MB 5
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.132868 seconds
+1500 MB 6
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.132989 seconds
+1500 MB 7
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.132924 seconds
+1500 MB 8
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.133 seconds
+1500 MB 9
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.132834 seconds
+1500 MB 10
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Dimensions: 192,192,320,2,8,1
+Size in bytes = 1509949440
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.132846 seconds
+1800 MB 1
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.172298 seconds
+1800 MB 2
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.172374 seconds
+1800 MB 3
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.171684 seconds
+1800 MB 4
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.172348 seconds
+1800 MB 5
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.171668 seconds
+1800 MB 6
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.172284 seconds
+1800 MB 7
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.171913 seconds
+1800 MB 8
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.172071 seconds
+1800 MB 9
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.17171 seconds
+1800 MB 10
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Dimensions: 192,192,384,2,8,1
+Size in bytes = 1811939328
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.172311 seconds
+2000 MB 1
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.212346 seconds
+2000 MB 2
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.213841 seconds
+2000 MB 3
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.213812 seconds
+2000 MB 4
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.213781 seconds
+2000 MB 5
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.213884 seconds
+2000 MB 6
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.212729 seconds
+2000 MB 7
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.213775 seconds
+2000 MB 8
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.213977 seconds
+2000 MB 9
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.213778 seconds
+2000 MB 10
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Dimensions: 192,192,448,2,8,1
+Size in bytes = 2113929216
+Initializing data on host.....
+Rank 1Device ID: 1 on node: ravg1051
+Initialization complete
+Rank 0Device ID: 0 on node: ravg1047
+
+Average iteration time: 0.213858 seconds
+                                  
+================================= 
+Global information about the job: 
+================================= 
+  
+Job owner: djimenez(1910)
+Job name:  no_compression_1_pairs_mpi
+Node list: ravg[1047,1051]
+Job start: Tue Oct 28 09:08:43 CET 2025
+Job end:   Tue Oct 28 10:18:00 CET 2025
+Work dir:  /u/djimenez/zfp_sandbox/build/bin/performance_model_executions/model_experiments_27_10_25/./
+Command:   /raven/u/djimenez/zfp_sandbox/build/bin/performance_model_executions/model_experiments_27_10_25/submit_no_compression_1_pairs_mpi.slurm
+  
+  
+  
+==========================================================================================
+Information on jobsteps (Note: MaxRSS/AveRSS is the maximum/average over all 
+tasks of the per-task memory high-water marks; cf. "man sacct"): 
+==========================================================================================
+  
+JobID            JobName NNodes NTasks  NCPUS       MaxRSS       AveRSS    Elapsed ExitCode
+------------- ---------- ------ ------ ------ ------------ ------------ ---------- --------
+22632125      no_compres      2           288                             01:09:17      0:0
+22632125.0    model_no_c      2      2     72        2.35M        2.31M   00:00:05      0:0
+22632125.1    model_no_c      2      2     72        2.40M        2.34M   00:00:03      0:0
+22632125.2    model_no_c      2      2     72        2.35M        2.30M   00:00:04      0:0
+22632125.3    model_no_c      2      2     72        2.39M        2.32M   00:00:03      0:0
+22632125.4    model_no_c      2      2     72        2.34M        2.31M   00:00:05      0:0
+22632125.5    model_no_c      2      2     72        2.34M        2.29M   00:00:03      0:0
+22632125.6    model_no_c      2      2     72        2.34M        2.32M   00:00:04      0:0
+22632125.7    model_no_c      2      2     72        2.38M        2.31M   00:00:03      0:0
+22632125.8    model_no_c      2      2     72        2.36M        2.31M   00:00:05      0:0
+22632125.9    model_no_c      2      2     72        2.34M        2.30M   00:00:03      0:0
+22632125.10   model_no_c      2      2     72        2.37M        2.32M   00:00:04      0:0
+22632125.11   model_no_c      2      2     72        2.36M        2.32M   00:00:03      0:0
+22632125.12   model_no_c      2      2     72        2.38M        2.33M   00:00:05      0:0
+22632125.13   model_no_c      2      2     72        2.37M        2.32M   00:00:03      0:0
+22632125.14   model_no_c      2      2     72        2.36M        2.30M   00:00:04      0:0
+22632125.15   model_no_c      2      2     72        2.38M        2.32M   00:00:03      0:0
+22632125.16   model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.17   model_no_c      2      2     72        2.33M        2.29M   00:00:05      0:0
+22632125.18   model_no_c      2      2     72        2.36M        2.31M   00:00:05      0:0
+22632125.19   model_no_c      2      2     72        2.33M        2.29M   00:00:04      0:0
+22632125.20   model_no_c      2      2     72        2.39M        2.33M   00:00:04      0:0
+22632125.21   model_no_c      2      2     72        2.38M        2.32M   00:00:03      0:0
+22632125.22   model_no_c      2      2     72        2.34M        2.31M   00:00:04      0:0
+22632125.23   model_no_c      2      2     72        2.35M        2.30M   00:00:04      0:0
+22632125.24   model_no_c      2      2     72        2.36M        2.31M   00:00:04      0:0
+22632125.25   model_no_c      2      2     72        2.34M        2.29M   00:00:04      0:0
+22632125.26   model_no_c      2      2     72        2.38M        2.32M   00:00:04      0:0
+22632125.27   model_no_c      2      2     72        2.37M        2.31M   00:00:03      0:0
+22632125.28   model_no_c      2      2     72        2.33M        2.28M   00:00:04      0:0
+22632125.29   model_no_c      2      2     72        2.35M        2.30M   00:00:04      0:0
+22632125.30   model_no_c      2      2     72        2.35M        2.30M   00:00:04      0:0
+22632125.31   model_no_c      2      2     72        2.37M        2.31M   00:00:04      0:0
+22632125.32   model_no_c      2      2     72        2.36M        2.30M   00:00:04      0:0
+22632125.33   model_no_c      2      2     72        2.38M        2.33M   00:00:04      0:0
+22632125.34   model_no_c      2      2     72        2.35M        2.31M   00:00:03      0:0
+22632125.35   model_no_c      2      2     72        2.34M        2.31M   00:00:04      0:0
+22632125.36   model_no_c      2      2     72        2.34M        2.29M   00:00:04      0:0
+22632125.37   model_no_c      2      2     72        2.36M        2.31M   00:00:04      0:0
+22632125.38   model_no_c      2      2     72        2.37M        2.30M   00:00:04      0:0
+22632125.39   model_no_c      2      2     72        2.33M        2.29M   00:00:03      0:0
+22632125.40   model_no_c      2      2     72        2.34M        2.29M   00:00:04      0:0
+22632125.41   model_no_c      2      2     72        2.33M        2.29M   00:00:04      0:0
+22632125.42   model_no_c      2      2     72        2.33M        2.29M   00:00:04      0:0
+22632125.43   model_no_c      2      2     72        2.33M        2.29M   00:00:03      0:0
+22632125.44   model_no_c      2      2     72        2.35M        2.31M   00:00:04      0:0
+22632125.45   model_no_c      2      2     72        2.38M        2.32M   00:00:04      0:0
+22632125.46   model_no_c      2      2     72        2.33M        2.30M   00:00:04      0:0
+22632125.47   model_no_c      2      2     72        2.39M        2.34M   00:00:04      0:0
+22632125.48   model_no_c      2      2     72        2.38M        2.32M   00:00:02      0:0
+22632125.49   model_no_c      2      2     72        2.35M        2.32M   00:00:02      0:0
+22632125.50   model_no_c      2      2     72        2.38M        2.33M   00:00:04      0:0
+22632125.51   model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.52   model_no_c      2      2     72        2.34M        2.30M   00:00:04      0:0
+22632125.53   model_no_c      2      2     72        2.35M        2.31M   00:00:04      0:0
+22632125.54   model_no_c      2      2     72        2.37M        2.32M   00:00:04      0:0
+22632125.55   model_no_c      2      2     72        2.38M        2.31M   00:00:04      0:0
+22632125.56   model_no_c      2      2     72        2.38M        2.31M   00:00:04      0:0
+22632125.57   model_no_c      2      2     72        2.37M        2.31M   00:00:04      0:0
+22632125.58   model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.59   model_no_c      2      2     72        2.33M        2.30M   00:00:05      0:0
+22632125.60   model_no_c      2      2     72        2.40M        2.32M   00:00:05      0:0
+22632125.61   model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.62   model_no_c      2      2     72        2.36M        2.32M   00:00:05      0:0
+22632125.63   model_no_c      2      2     72        2.34M        2.29M   00:00:05      0:0
+22632125.64   model_no_c      2      2     72        2.38M        2.31M   00:00:04      0:0
+22632125.65   model_no_c      2      2     72        2.34M        2.31M   00:00:05      0:0
+22632125.66   model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.67   model_no_c      2      2     72        2.34M        2.29M   00:00:05      0:0
+22632125.68   model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.69   model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.70   model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.71   model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.72   model_no_c      2      2     72        2.36M        2.30M   00:00:05      0:0
+22632125.73   model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.74   model_no_c      2      2     72        2.34M        2.31M   00:00:03      0:0
+22632125.75   model_no_c      2      2     72        2.38M        2.33M   00:00:03      0:0
+22632125.76   model_no_c      2      2     72        2.34M        2.30M   00:00:04      0:0
+22632125.77   model_no_c      2      2     72        2.35M        2.31M   00:00:04      0:0
+22632125.78   model_no_c      2      2     72        2.35M        2.31M   00:00:04      0:0
+22632125.79   model_no_c      2      2     72        2.36M        2.30M   00:00:04      0:0
+22632125.80   model_no_c      2      2     72        2.37M        2.31M   00:00:04      0:0
+22632125.81   model_no_c      2      2     72        2.34M        2.31M   00:00:04      0:0
+22632125.82   model_no_c      2      2     72        2.38M        2.33M   00:00:04      0:0
+22632125.83   model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.84   model_no_c      2      2     72        2.33M        2.30M   00:00:04      0:0
+22632125.85   model_no_c      2      2     72        2.34M        2.30M   00:00:04      0:0
+22632125.86   model_no_c      2      2     72        2.38M        2.31M   00:00:04      0:0
+22632125.87   model_no_c      2      2     72        2.35M        2.30M   00:00:04      0:0
+22632125.88   model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.89   model_no_c      2      2     72        2.38M        2.32M   00:00:04      0:0
+22632125.90   model_no_c      2      2     72        2.33M        2.29M   00:00:04      0:0
+22632125.91   model_no_c      2      2     72        2.38M        2.33M   00:00:04      0:0
+22632125.92   model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.93   model_no_c      2      2     72        2.38M        2.32M   00:00:04      0:0
+22632125.94   model_no_c      2      2     72        2.34M        2.30M   00:00:04      0:0
+22632125.95   model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.96   model_no_c      2      2     72        2.40M        2.33M   00:00:04      0:0
+22632125.97   model_no_c      2      2     72        2.38M        2.32M   00:00:04      0:0
+22632125.98   model_no_c      2      2     72        2.35M        2.31M   00:00:04      0:0
+22632125.99   model_no_c      2      2     72        2.34M        2.29M   00:00:05      0:0
+22632125.100  model_no_c      2      2     72        2.34M        2.30M   00:00:04      0:0
+22632125.101  model_no_c      2      2     72        2.34M        2.30M   00:00:04      0:0
+22632125.102  model_no_c      2      2     72        2.36M        2.31M   00:00:04      0:0
+22632125.103  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.104  model_no_c      2      2     72        2.34M        2.29M   00:00:08      0:0
+22632125.105  model_no_c      2      2     72        2.33M        2.30M   00:00:05      0:0
+22632125.106  model_no_c      2      2     72        2.36M        2.31M   00:00:05      0:0
+22632125.107  model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.108  model_no_c      2      2     72        2.41M        2.33M   00:00:05      0:0
+22632125.109  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.110  model_no_c      2      2     72        2.39M        2.33M   00:00:05      0:0
+22632125.111  model_no_c      2      2     72        2.38M        2.31M   00:00:05      0:0
+22632125.112  model_no_c      2      2     72        2.39M        2.33M   00:00:05      0:0
+22632125.113  model_no_c      2      2     72        2.36M        2.32M   00:00:05      0:0
+22632125.114  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.115  model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.116  model_no_c      2      2     72        2.37M        2.33M   00:00:05      0:0
+22632125.117  model_no_c      2      2     72        2.39M        2.32M   00:00:05      0:0
+22632125.118  model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.119  model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.120  model_no_c      2      2     72        2.33M        2.30M   00:00:05      0:0
+22632125.121  model_no_c      2      2     72        2.34M        2.29M   00:00:04      0:0
+22632125.122  model_no_c      2      2     72        2.36M        2.32M   00:00:05      0:0
+22632125.123  model_no_c      2      2     72        2.41M        2.33M   00:00:04      0:0
+22632125.124  model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.125  model_no_c      2      2     72        2.38M        2.31M   00:00:04      0:0
+22632125.126  model_no_c      2      2     72        2.33M        2.28M   00:00:05      0:0
+22632125.127  model_no_c      2      2     72        2.36M        2.31M   00:00:03      0:0
+22632125.128  model_no_c      2      2     72        2.35M        2.31M   00:00:04      0:0
+22632125.129  model_no_c      2      2     72        2.36M        2.30M   00:00:03      0:0
+22632125.130  model_no_c      2      2     72        2.39M        2.34M   00:00:04      0:0
+22632125.131  model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.132  model_no_c      2      2     72        2.34M        2.29M   00:00:04      0:0
+22632125.133  model_no_c      2      2     72        2.36M        2.32M   00:00:05      0:0
+22632125.134  model_no_c      2      2     72        2.37M        2.30M   00:00:04      0:0
+22632125.135  model_no_c      2      2     72        2.41M        2.33M   00:00:05      0:0
+22632125.136  model_no_c      2      2     72        2.36M        2.30M   00:00:04      0:0
+22632125.137  model_no_c      2      2     72        2.41M        2.33M   00:00:05      0:0
+22632125.138  model_no_c      2      2     72        2.34M        2.29M   00:00:05      0:0
+22632125.139  model_no_c      2      2     72        2.38M        2.32M   00:00:04      0:0
+22632125.140  model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.141  model_no_c      2      2     72        2.35M        2.31M   00:00:05      0:0
+22632125.142  model_no_c      2      2     72        2.31M        2.27M   00:00:04      0:0
+22632125.143  model_no_c      2      2     72        2.33M        2.30M   00:00:05      0:0
+22632125.144  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.145  model_no_c      2      2     72        2.38M        2.31M   00:00:04      0:0
+22632125.146  model_no_c      2      2     72        2.34M        2.31M   00:00:06      0:0
+22632125.147  model_no_c      2      2     72        2.34M        2.29M   00:00:05      0:0
+22632125.148  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.149  model_no_c      2      2     72        2.36M        2.31M   00:00:05      0:0
+22632125.150  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.151  model_no_c      2      2     72        2.35M        2.31M   00:00:05      0:0
+22632125.152  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.153  model_no_c      2      2     72        2.36M        2.31M   00:00:05      0:0
+22632125.154  model_no_c      2      2     72        2.38M        2.33M   00:00:05      0:0
+22632125.155  model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.156  model_no_c      2      2     72        2.35M        2.31M   00:00:05      0:0
+22632125.157  model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.158  model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.159  model_no_c      2      2     72        2.40M        2.33M   00:00:05      0:0
+22632125.160  model_no_c      2      2     72        2.36M        2.30M   00:00:05      0:0
+22632125.161  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.162  model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.163  model_no_c      2      2     72        2.41M        2.33M   00:00:05      0:0
+22632125.164  model_no_c      2      2     72        2.34M        2.31M   00:00:05      0:0
+22632125.165  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.166  model_no_c      2      2     72        2.36M        2.29M   00:00:04      0:0
+22632125.167  model_no_c      2      2     72        2.35M        2.32M   00:00:05      0:0
+22632125.168  model_no_c      2      2     72        2.37M        2.32M   00:00:04      0:0
+22632125.169  model_no_c      2      2     72        2.36M        2.31M   00:00:05      0:0
+22632125.170  model_no_c      2      2     72        2.35M        2.31M   00:00:04      0:0
+22632125.171  model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.172  model_no_c      2      2     72        2.33M        2.30M   00:00:05      0:0
+22632125.173  model_no_c      2      2     72        2.35M        2.31M   00:00:04      0:0
+22632125.174  model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.175  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.176  model_no_c      2      2     72        2.37M        2.32M   00:00:04      0:0
+22632125.177  model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.178  model_no_c      2      2     72        2.38M        2.33M   00:00:04      0:0
+22632125.179  model_no_c      2      2     72        2.40M        2.34M   00:00:04      0:0
+22632125.180  model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.181  model_no_c      2      2     72        2.34M        2.31M   00:00:05      0:0
+22632125.182  model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.183  model_no_c      2      2     72        2.34M        2.29M   00:00:05      0:0
+22632125.184  model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.185  model_no_c      2      2     72        2.39M        2.33M   00:00:05      0:0
+22632125.186  model_no_c      2      2     72        2.35M        2.31M   00:00:05      0:0
+22632125.187  model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.188  model_no_c      2      2     72        2.41M        2.34M   00:00:04      0:0
+22632125.189  model_no_c      2      2     72        2.36M        2.31M   00:00:05      0:0
+22632125.190  model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.191  model_no_c      2      2     72        2.38M        2.31M   00:00:06      0:0
+22632125.192  model_no_c      2      2     72        2.34M        2.30M   00:00:05      0:0
+22632125.193  model_no_c      2      2     72        2.35M        2.31M   00:00:05      0:0
+22632125.194  model_no_c      2      2     72        2.35M        2.30M   00:00:05      0:0
+22632125.195  model_no_c      2      2     72        2.35M        2.31M   00:00:05      0:0
+22632125.196  model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.197  model_no_c      2      2     72        2.35M        2.29M   00:00:05      0:0
+22632125.198  model_no_c      2      2     72        2.36M        2.31M   00:00:05      0:0
+22632125.199  model_no_c      2      2     72        2.37M        2.32M   00:00:05      0:0
+22632125.200  model_no_c      2      2     72        2.34M        2.31M   00:00:05      0:0
+22632125.201  model_no_c      2      2     72        2.34M        2.30M   00:00:07      0:0
+22632125.202  model_no_c      2      2     72        2.36M        2.32M   00:00:05      0:0
+22632125.203  model_no_c      2      2     72        2.35M        2.32M   00:00:05      0:0
+22632125.204  model_no_c      2      2     72        2.38M        2.33M   00:00:05      0:0
+22632125.205  model_no_c      2      2     72        2.36M        2.32M   00:00:06      0:0
+22632125.206  model_no_c      2      2     72        2.34M        2.31M   00:00:05      0:0
+22632125.207  model_no_c      2      2     72        2.37M        2.31M   00:00:05      0:0
+22632125.208  model_no_c      2      2     72        2.35M        2.31M   00:00:05      0:0
+22632125.209  model_no_c      2      2     72        2.38M        2.32M   00:00:05      0:0
+22632125.210  model_no_c      2      2     72        2.39M        2.33M   00:00:06      0:0
+22632125.211  model_no_c      2      2     72        2.38M        2.32M   00:00:06      0:0
+22632125.212  model_no_c      2      2     72        2.35M        2.30M   00:00:06      0:0
+22632125.213  model_no_c      2      2     72        2.37M        2.31M   00:00:07      0:0
+22632125.214  model_no_c      2      2     72        2.37M        2.31M   00:00:07      0:0
+22632125.215  model_no_c      2      2     72        2.35M        2.30M   00:00:06      0:0
+22632125.216  model_no_c      2      2     72        2.38M        2.32M   00:00:06      0:0
+22632125.217  model_no_c      2      2     72        2.39M        2.32M   00:00:06      0:0
+22632125.218  model_no_c      2      2     72        2.35M        2.30M   00:00:07      0:0
+22632125.219  model_no_c      2      2     72        2.34M        2.30M   00:00:06      0:0
+22632125.220  model_no_c      2      2     72        2.37M        2.31M   00:00:08      0:0
+22632125.221  model_no_c      2      2     72        2.35M        2.30M   00:00:08      0:0
+22632125.222  model_no_c      2      2     72        2.40M        2.35M   00:00:08      0:0
+22632125.223  model_no_c      2      2     72        2.37M        2.32M   00:00:08      0:0
+22632125.224  model_no_c      2      2     72        2.35M        2.31M   00:00:10      0:0
+22632125.225  model_no_c      2      2     72        2.38M        2.33M   00:00:09      0:0
+22632125.226  model_no_c      2      2     72        2.38M        2.33M   00:00:11      0:0
+22632125.227  model_no_c      2      2     72        2.34M        2.30M   00:00:10      0:0
+22632125.228  model_no_c      2      2     72        2.38M        2.32M   00:00:10      0:0
+22632125.229  model_no_c      2      2     72        2.35M        2.29M   00:00:10      0:0
+22632125.230  model_no_c      2      2     72        2.35M        2.30M   00:00:15      0:0
+22632125.231  model_no_c      2      2     72        2.33M        2.30M   00:00:14      0:0
+22632125.232  model_no_c      2      2     72        2.35M        2.30M   00:00:14      0:0
+22632125.233  model_no_c      2      2     72        2.36M        2.32M   00:00:12      0:0
+22632125.234  model_no_c      2      2     72        2.38M        2.32M   00:00:14      0:0
+22632125.235  model_no_c      2      2     72        2.39M        2.32M   00:00:13      0:0
+22632125.236  model_no_c      2      2     72        2.38M        2.32M   00:00:14      0:0
+22632125.237  model_no_c      2      2     72        2.41M        2.33M   00:00:13      0:0
+22632125.238  model_no_c      2      2     72        2.34M        2.29M   00:00:14      0:0
+22632125.239  model_no_c      2      2     72        2.35M        2.30M   00:00:14      0:0
+22632125.240  model_no_c      2      2     72        2.34M        2.30M   00:00:14      0:0
+22632125.241  model_no_c      2      2     72        2.35M        2.30M   00:00:15      0:0
+22632125.242  model_no_c      2      2     72        2.36M        2.30M   00:00:15      0:0
+22632125.243  model_no_c      2      2     72        2.38M        2.33M   00:00:15      0:0
+22632125.244  model_no_c      2      2     72        2.35M        2.30M   00:00:15      0:0
+22632125.245  model_no_c      2      2     72        2.35M        2.31M   00:00:15      0:0
+22632125.246  model_no_c      2      2     72        2.33M        2.31M   00:00:15      0:0
+22632125.247  model_no_c      2      2     72        2.38M        2.33M   00:00:15      0:0
+22632125.248  model_no_c      2      2     72        2.35M        2.31M   00:00:14      0:0
+22632125.249  model_no_c      2      2     72        2.38M        2.31M   00:00:14      0:0
+22632125.250  model_no_c      2      2     72        2.39M        2.33M   00:00:15      0:0
+22632125.251  model_no_c      2      2     72        2.33M        2.30M   00:00:16      0:0
+22632125.252  model_no_c      2      2     72        2.35M        2.30M   00:00:16      0:0
+22632125.253  model_no_c      2      2     72        2.35M        2.31M   00:00:15      0:0
+22632125.254  model_no_c      2      2     72        2.33M        2.29M   00:00:17      0:0
+22632125.255  model_no_c      2      2     72        2.34M        2.30M   00:00:16      0:0
+22632125.256  model_no_c      2      2     72        2.35M        2.31M   00:00:17      0:0
+22632125.257  model_no_c      2      2     72        2.42M        2.33M   00:00:20      0:0
+22632125.258  model_no_c      2      2     72        2.34M        2.30M   00:00:17      0:0
+22632125.259  model_no_c      2      2     72        2.38M        2.32M   00:00:18      0:0
+22632125.260  model_no_c      2      2     72        2.38M        2.31M   00:00:19      0:0
+22632125.261  model_no_c      2      2     72        2.33M        2.30M   00:00:20      0:0
+22632125.262  model_no_c      2      2     72        2.37M        2.31M   00:00:20      0:0
+22632125.263  model_no_c      2      2     72        2.35M        2.31M   00:00:20      0:0
+22632125.264  model_no_c      2      2     72        2.39M        2.33M   00:00:19      0:0
+22632125.265  model_no_c      2      2     72        2.36M        2.30M   00:00:20      0:0
+22632125.266  model_no_c      2      2     72        2.40M        2.34M   00:00:22      0:0
+22632125.267  model_no_c      2      2     72        2.33M        2.29M   00:00:20      0:0
+22632125.268  model_no_c      2      2     72        2.39M        2.33M   00:00:22      0:0
+22632125.269  model_no_c      2      2     72        2.38M        2.33M   00:00:20      0:0
+22632125.270  model_no_c      2      2     72        2.33M        2.31M   00:00:28      0:0
+22632125.271  model_no_c      2      2     72        2.35M        2.31M   00:00:26      0:0
+22632125.272  model_no_c      2      2     72        2.37M        2.31M   00:00:27      0:0
+22632125.273  model_no_c      2      2     72        2.38M        2.32M   00:00:26      0:0
+22632125.274  model_no_c      2      2     72        2.36M        2.31M   00:00:25      0:0
+22632125.275  model_no_c      2      2     72        2.35M        2.30M   00:00:27      0:0
+22632125.276  model_no_c      2      2     72        2.34M        2.30M   00:00:26      0:0
+22632125.277  model_no_c      2      2     72        2.35M        2.30M   00:00:27      0:0
+22632125.278  model_no_c      2      2     72        2.34M        2.30M   00:00:28      0:0
+22632125.279  model_no_c      2      2     72        2.36M        2.31M   00:00:27      0:0
+22632125.280  model_no_c      2      2     72     2560.46M     1989.34M   00:00:36      0:0
+22632125.281  model_no_c      2      2     72     2570.33M     1989.32M   00:00:35      0:0
+22632125.282  model_no_c      2      2     72     2560.21M     1989.14M   00:00:36      0:0
+22632125.283  model_no_c      2      2     72     2560.24M     1989.39M   00:00:36      0:0
+22632125.284  model_no_c      2      2     72     2560.31M     1989.22M   00:00:37      0:0
+22632125.285  model_no_c      2      2     72     2570.21M     1989.26M   00:00:38      0:0
+22632125.286  model_no_c      2      2     72     2560.17M     1989.12M   00:00:36      0:0
+22632125.287  model_no_c      2      2     72     2570.64M     1989.46M   00:00:36      0:0
+22632125.288  model_no_c      2      2     72     2560.68M     1989.47M   00:00:36      0:0
+22632125.289  model_no_c      2      2     72     2570.09M     1989.21M   00:00:37      0:0
+22632125.290  model_no_c      2      2     72     3178.89M     2453.82M   00:00:47      0:0
+22632125.291  model_no_c      2      2     72     3169.21M     2454.00M   00:00:48      0:0
+22632125.292  model_no_c      2      2     72     3168.87M     2453.78M   00:00:48      0:0
+22632125.293  model_no_c      2      2     72     3178.91M     2453.81M   00:00:48      0:0
+22632125.294  model_no_c      2      2     72     3180.39M     2454.55M   00:00:47      0:0
+22632125.295  model_no_c      2      2     72     3169.48M     2454.17M   00:00:48      0:0
+22632125.296  model_no_c      2      2     72     3179.22M     2454.06M   00:00:47      0:0
+22632125.297  model_no_c      2      2     72     3170.87M     2454.83M   00:00:46      0:0
+22632125.298  model_no_c      2      2     72     3178.94M     2453.90M   00:00:48      0:0
+22632125.299  model_no_c      2      2     72     3179.18M     2453.88M   00:00:48      0:0
+22632125.300  model_no_c      2      2     72     3723.73M     2854.49M   00:00:59      0:0
+22632125.301  model_no_c      2      2     72     3713.84M     2854.59M   00:00:59      0:0
+22632125.302  model_no_c      2      2     72     3713.67M     2854.47M   00:00:58      0:0
+22632125.303  model_no_c      2      2     72     3715.79M     2855.64M   00:00:57      0:0
+22632125.304  model_no_c      2      2     72     3713.67M     2854.40M   00:00:58      0:0
+22632125.305  model_no_c      2      2     72     3724.11M     2854.76M   00:00:58      0:0
+22632125.306  model_no_c      2      2     72     3713.46M     2854.32M   00:00:58      0:0
+22632125.307  model_no_c      2      2     72     3723.60M     2854.42M   00:00:59      0:0
+22632125.308  model_no_c      2      2     72     3723.60M     2854.49M   00:00:57      0:0
+22632125.309  model_no_c      2      2     72     3723.51M     2854.82M   00:00:59      0:0
+22632125.310  model_no_c      2      2     72     4322.46M     3319.10M   00:01:12      0:0
+22632125.311  model_no_c      2      2     72     4332.44M     3319.14M   00:01:10      0:0
+22632125.312  model_no_c      2      2     72     4332.52M     3319.16M   00:01:10      0:0
+22632125.313  model_no_c      2      2     72     4322.50M     3319.68M   00:01:09      0:0
+22632125.314  model_no_c      2      2     72     4322.20M     3319.09M   00:01:11      0:0
+22632125.315  model_no_c      2      2     72     4332.22M     3319.05M   00:01:10      0:0
+22632125.316  model_no_c      2      2     72     4332.18M     3318.97M   00:01:09      0:0
+22632125.317  model_no_c      2      2     72     4322.54M     3319.14M   00:01:13      0:0
+22632125.318  model_no_c      2      2     72     4332.51M     3319.11M   00:01:10      0:0
+22632125.319  model_no_c      2      2     72     4322.12M     3319.46M   00:01:12      0:0
+  
+Maximum memory per node: 4.542973 GB (defined as MaxRSS*Ntasks/NNodes)
+CPU utilization: 0.5 %
+  
