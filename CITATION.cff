@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Jimenez Vargas
+  given-names: Diego
+title:diegorsjv/inline_compression_paper_artifacts_pasc_2026: Data and code artifacts PASC 2026
+version: v1.0.0
+date-released: 2025-12-12
+                                
